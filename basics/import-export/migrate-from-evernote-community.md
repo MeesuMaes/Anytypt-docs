@@ -1,5 +1,60 @@
-# Migrate from Evernote (Community)
+# 从 Evernote 迁移
 
-One of our community members created a tool that lets you import your Evernote notes inside Anytype. The full guide can be found on our [community forum](https://community.anytype.io/t/a-tool-to-import-evernote-notes-to-anytype/11483), and the GitHub repository here:
+要从 Evernote 迁移到 Anytype，你需要：
 
-{% embed url="https://github.com/Shampra/EvernoteToAnytype" %}
+1. 导出你的 Evernote 数据为 ENEX 文件
+2. 在 Anytype 中导入这些文件
+
+### 从 Evernote 导出
+
+1. 打开 Evernote
+2. 选择你想要导出的笔记本
+3. 点击右上角的三个点 (...)
+4. 选择 "导出笔记本..."
+5. 选择 ENEX 格式
+6. 选择保存位置并完成导出
+
+{% hint style="info" %}
+如果你有多个笔记本，你需要分别导出每一个。
+{% endhint %}
+
+### 导入到 Anytype
+
+1. 在 Anytype 中打开命令菜单 (CMD/CTRL + K)
+2. 输入 "导入"
+3. 选择 "从 Evernote 导入"
+4. 选择你的 ENEX 文件
+5. 等待导入完成
+
+### 导入后会发生什么？
+
+* 所有笔记都会转换为 Anytype 对象
+* 标签会被保留
+* 图片和附件会被导入
+* 笔记本结构会被保留
+* 创建日期会被保留
+
+### 已知限制
+
+* 某些 Evernote 特定的格式可能会丢失
+* 笔记链接会被转换为纯文本
+* 提醒和任务不会被导入
+* 共享笔记本的权限不会被保留
+
+{% hint style="warning" %}
+建议在导入后检查你的重要笔记，确保所有内容都正确迁移。
+{% endhint %}
+
+### 常见问题
+
+**问：导入需要多长时间？**
+答：这取决于你的数据量。小型笔记本可能只需要几分钟，而包含数千篇笔记的大型笔记本可能需要更长时间。
+
+**问：我可以选择性导入吗？**
+答：是的，你可以选择只导出和导入特定的笔记本。
+
+**问：我可以多次导入同一个文件吗？**
+答：可以，但这可能会创建重复的对象。建议在首次导入后检查结果，而不是重复导入。
+
+**问：如果导入失败了怎么办？**
+答：尝试将大型 ENEX 文件分割成较小的文件，然后分别导入。如果问题仍然存在，请联系我们的支持团队。

@@ -1,15 +1,46 @@
-# Bin
+# 查找你的对象
 
-Before permanently deleting your objects, you will first need to move them to the bin.&#x20;
+有多种方式可以在 Anytype 中查找你的内容：
 
-<figure><img src="../../.gitbook/assets/image (87).png" alt="" width="375"><figcaption></figcaption></figure>
+### 搜索
 
-To permanently delete your objects, you will first need to locate and open the Bin. You can find the it at the bottom of your sidebar.
+使用 CMD/CTRL + K 打开命令菜单并开始输入。你可以搜索：
+* 对象标题
+* 对象内容
+* 关系值
+* 集合名称
+* 类型名称
 
-<figure><img src="../../.gitbook/assets/image (100).png" alt="" width="316"><figcaption></figcaption></figure>
+### 最近使用
 
-After opening the Bin, if you would still like to permanently delete some of your objects, you will first need to select them, and then you can click on the `Delete permanently` button to get rid of them forever.
+在主页或命令菜单中，你可以看到最近访问过的对象列表。
 
-You can use the same process to restore your objects instead.
+### 收藏夹
 
-<figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
+将经常访问的对象添加到收藏夹，以便快速访问。要添加收藏：
+1. 右键点击一个对象
+2. 选择"添加到收藏夹"
+
+### 通过图谱
+
+使用图谱视图（CMD/CTRL + G）可以可视化地浏览你的对象网络。
+
+### 通过导航
+
+使用侧边栏导航到不同的视图：
+* 所有对象
+* 最近访问
+* 收藏夹
+* 归档
+* 已删除
+
+### 通过链接
+
+任何对象都可以链接到其他对象。点击这些链接可以在对象之间快速导航。
+
+### 通过集合
+
+集合可以帮助你组织和过滤对象。使用集合视图来：
+* 按类型分组对象
+* 使用过滤器查找特定对象
+* 使用排序整理对象

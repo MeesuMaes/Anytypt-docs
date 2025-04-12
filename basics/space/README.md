@@ -1,35 +1,39 @@
-# Space
+---
+description: 了解空间的基本概念。
+---
 
-<figure><img src="../../.gitbook/assets/Anytype Primitives - Frame 2-2.jpg" alt=""><figcaption><p>An explanation of various primitives inside Anytype</p></figcaption></figure>
+# 空间
 
-Inside your Vault, you have **Spaces**. A **Space** is a container for your graph of objects.
+<figure><img src="../../.gitbook/assets/Anytype Primitives - Frame 2-2.jpg" alt=""><figcaption><p>Anytype 中各种原语的解释</p></figcaption></figure>
 
-Similar to vault, space is an encrypted container. Unlike your Vault - each space has unique access rights - you can decide who has access to each space.
+在您的保险库中，您拥有 **空间**。一个 **空间** 是您对象图的容器。
 
-Currently, we only support private and public spaces.
+与保险库类似，空间是一个加密的容器。但与您的保险库不同，每个空间都有独特的访问权限——您可以决定谁可以访问每个空间。
 
-Vaults created before version 0.44.0 will also have an Entry Space. You are free to delete this space if no longer needed, or you can migrate your data to a different space by using the [import-export](../import-export/ "mention") feature.
+目前，我们仅支持私人和公共空间。
+
+版本 0.44.0 之前创建的保险库还将包含一个入口空间。如果不再需要，您可以自由删除此空间，或者可以使用 [导入导出](../import-export/ "mention") 功能将数据迁移到其他空间。
 
 {% hint style="danger" %}
-It's currently impossible to recover deleted spaces unless you've previously exported them, so be careful when deleting them.
+目前无法恢复已删除的空间，除非您之前已导出它们，因此在删除时请小心。
 {% endhint %}
 
-You’re able to create multiple separate spaces (up to 50), each with their own graph of objects, widget sidebar, and later on - privacy settings. You can have up to 3 shared spaces depending on your [membership](../../memberships/monetization/) plan.
+您可以创建多个独立的空间（最多 50 个），每个空间都有自己的对象图、小部件侧边栏，以及未来的隐私设置。根据您的 [会员](../../memberships/monetization/) 计划，您最多可以拥有 3 个共享空间。
 
-You can navigate between your existing spaces by using the new spaces sidebar. To create a new space, simply click on the plus button at the bottom of the list.
+您可以使用新的空间侧边栏在现有空间之间导航。要创建新空间，只需点击列表底部的加号按钮。
 
 <figure><img src="../../.gitbook/assets/image (79).png" alt="" width="325"><figcaption></figcaption></figure>
 
-Use the [space management menu](space-settings.md) at the top of your sidebar to customize your space settings or delete your space.
+使用侧边栏顶部的 [空间管理菜单](space-settings.md) 自定义您的空间设置或删除您的空间。
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-You can also manage all of your spaces by going into `Settings >` [`Spaces`](space-settings.md).
+您还可以通过进入 `设置 >` [`空间`](space-settings.md) 来管理您的所有空间。
 
 <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-### Global Sync Status
+### 全局同步状态
 
 <figure><img src="../../.gitbook/assets/05487530c59ed5ec446fe384c44a158c00b2722a.png" alt=""><figcaption></figcaption></figure>
 
-The old sync status has been updated, and it now shows you the sync status of all of your objects instead of it just showing the sync status of the currently opened object.
+旧的同步状态已更新，现在它显示的是您所有对象的同步状态，而不仅仅是当前打开对象的同步状态。

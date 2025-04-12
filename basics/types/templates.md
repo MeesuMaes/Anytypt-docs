@@ -1,41 +1,41 @@
 ---
-description: Building & using templates through types.
+description: 通过类型构建和使用模板。
 ---
 
-# Templates
+# 模板
 
 {% content-ref url="../../use-cases/deep-dive-templates.md" %}
 [deep-dive-templates.md](../../use-cases/deep-dive-templates.md)
 {% endcontent-ref %}
 
-### Understanding Templates
+### 理解模板
 
-Templates are one of our most-beloved ways to work at Anytype, designed to help you scale and personalize your Object creation flows. With Templates, you can:
+模板是 Anytype 最受欢迎的工作方式之一，旨在帮助您扩展和个性化对象创建流程。通过模板，您可以：
 
-* Customize the Layouts and Relations you want to use to for certain object Types
-* Automatically re-use the same structure each time you add a new Object
+* 自定义您希望用于某些对象类型的布局和关系
+* 每次添加新对象时自动重复使用相同的结构
 
-Templates are saved on the Type level, and each Type can support multiple Templates. For example, you can have different Templates for different kinds of Books, like academic, fiction, or non-fiction.
+模板保存在类型级别，每种类型可以支持多个模板。例如，您可以为不同种类的书籍（如学术、小说或非小说）创建不同的模板。
 
-### How to Create a Template
+### 如何创建模板
 
-There are three ways to add a Template:
+有三种方法可以添加模板：
 
-1\) Navigate to the Types tab of the [anytype-library](../anytype-library/ "mention") widget → Click the Type for which you'd like to create a Template → Click + to start creating a new template → Give your Template a name and start adding Relations and formatting → Your Template is auto-saved
+1\) 导航到 [anytype-library](../anytype-library/ "mention") 小部件的类型选项卡 → 点击您想要创建模板的类型 → 点击 + 开始创建新模板 → 为您的模板命名并开始添加关系和格式 → 您的模板会自动保存。
 
-2\) If you're working within an Object and would like to save your work as a Template, you can: Navigate to `···` in the top-right corner → Click + Use as a Template, and your content will automatically be saved as a new Template for this Object Type.
+2\) 如果您正在某个对象中工作并希望将您的工作保存为模板，您可以：导航到右上角的 `···` → 点击 + 另存为模板，您的内容将自动保存为此对象类型的新模板。
 
-3\) If you are working in a Set / Collection and you would like to create / edit your templates, you can:\
-Navigate to `New|▾` in the top-right corner of the Set / Collection view -> Click on the `▾` button to open up the template modal. Then either create a new template by using the `+` button, or modify an existing one by clicking on `···` in the top right corner of the template button, and choosing either `Edit template`, `Duplicate` or `Delete`.
+3\) 如果您在集合/集合视图中工作并希望创建/编辑模板，您可以：\
+导航到集合/集合视图右上角的 `新建|▾` → 点击 `▾` 按钮打开模板模式。然后通过使用 `+` 按钮创建新模板，或通过点击模板按钮右上角的 `···` 并选择 `编辑模板`、`复制` 或 `删除` 来修改现有模板。
 
-### Using & Managing Templates
+### 使用和管理模板
 
-Depending on the way you've created your new object, either the default template will be applied automatically, or you will be asked to choose a template yourself.
+根据您创建新对象的方式，默认模板会自动应用，或者您将被要求自己选择一个模板。
 
-<figure><img src="../../.gitbook/assets/5_Template Picker Screenshot.png" alt=""><figcaption><p>Choose a template</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5_Template Picker Screenshot.png" alt=""><figcaption><p>选择一个模板</p></figcaption></figure>
 
-You can also choose the default template for each type by opening the Type object, or you can choose the default template for each Set & Collection view.
+您还可以通过打开类型对象为每种类型选择默认模板，或者为每个集合和集合视图选择默认模板。
 
 <div><figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/6_Default Template Selector Screenshot at 18.15.24.png" alt=""><figcaption></figcaption></figure></div>
 
-You can view, edit, duplicate, or delete the Templates you've added for each Object Type by navigating to the Types tab of the [anytype-library](../anytype-library/ "mention") widgets.
+您可以通过导航到 [anytype-library](../anytype-library/ "mention") 小部件的类型选项卡，查看、编辑、复制或删除您为每种对象类型添加的模板。

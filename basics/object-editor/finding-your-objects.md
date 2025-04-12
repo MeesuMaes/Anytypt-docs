@@ -1,23 +1,29 @@
-# Locating Your Objects
+# 定位您的对象
 
-### Use the Graph
+### 使用关系图
 
-To find all of your objects and how they are connected, you can look to the Graph for your main source of truth.
+要查找所有对象及其之间的连接，您可以查看 **关系图（Graph）**，这是您查找信息的主要来源。
 
-Read more about the [graph.md](../graph.md "mention") here.
+点击这里了解更多关于 [关系图](../graph.md "mention") 的内容。
 
-### Browse through EVERYTHING
+---
 
-Additionally, to see all of the objects you've created in your space, you can use the [anytype-library](../anytype-library/ "mention") system widget that can be found at the top of your sidebar (just below your space name).
+### 浏览 **全部内容（EVERYTHING）**
 
-### Use the Search
+此外，要查看您在空间中创建的所有对象，可以使用 [Anytype 库](../anytype-library/ "mention") 系统小部件。该小部件位于侧边栏顶部（就在您的空间名称下方）。
 
-As a last resort, if you still can't find what you're looking for, try and search for it.
+---
 
-To navigate to the search, head to your sidebar, and click on the magnifier icon.
+### 使用搜索功能
+
+如果您仍然找不到所需的内容，可以尝试使用搜索功能作为最后的手段。
+
+要进入搜索，请前往侧边栏，然后点击放大镜图标。
 
 <figure><img src="../../.gitbook/assets/image (104).png" alt="" width="375"><figcaption></figcaption></figure>
 
-### Bin
+---
 
-If you've previously removed some objects from your [space](../space/ "mention"), they will appear in your [finding-your-objects.md](../anytype-library/finding-your-objects.md "mention") unless you've already permanently deleted them.
+### 回收站
+
+如果您之前从 [空间](../space/ "mention") 中删除了某些对象，它们会出现在 [回收站](../anytype-library/finding-your-objects.md "mention") 中，除非您已经永久删除了它们。

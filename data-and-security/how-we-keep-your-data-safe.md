@@ -1,27 +1,44 @@
-# Privacy & Encryption
+# 隐私与加密
 
-### Privacy <a href="#privacy" id="privacy"></a>
+---
 
-All of your data is private in Anytype. Only you have the encryption keys. No one at Anytype can decrypt your data. So if you lose your phrase, we can’t restore access. Likewise, no one in Anytype or anyone else can read the content of your Anytype.
+### 隐私 <a href="#privacy" id="privacy"></a>
 
-### Encryption <a href="#keychain" id="keychain"></a>
+在 Anytype 中，您的所有数据都是私密的。只有您拥有加密密钥，Anytype 的任何人员都无法解密您的数据。因此，如果您丢失了助记词（Recovery Phrase），我们将无法恢复访问权限。同样，Anytype 的任何人或其他人都无法读取您的内容。
 
-* Your objects are stored both locally and on nodes in an encrypted format, which can only be decoded using encryption keys. They are different for each document, and we have a certain hierarchy of keys.
-* To be able to search through the documents efficiently, we create indexes of your data locally on the basis of the encrypted objects. Think of that as two different storages: one for data, the other for indexes. We decrypt these encrypted objects on the fly with your keys, perform some logic and then save the results (i.e. indexes) locally. These indexes are not encrypted, but here we assume that only you have access to your local data, i.e. the access to your local computer is not compromised.
-* These indexes are not synced anywhere and they stay only on your computer. For example, if you have two devices, each of them will have its own index storage
+---
+
+### 加密 <a href="#keychain" id="keychain"></a>
+
+* 您的对象以加密格式存储在本地和节点上，只有通过加密密钥才能解码。每个文档的密钥都不同，并且我们有一套特定的密钥层级结构。
+* 为了能够高效地搜索文档，我们在本地基于加密对象创建索引。可以将其视为两种不同的存储：一种用于数据，另一种用于索引。我们使用您的密钥实时解密这些加密对象，执行某些逻辑操作后将结果（即索引）保存在本地。这些索引未加密，但我们假设只有您能访问本地数据，即您的本地计算机未被入侵。
+* 这些索引不会同步到任何地方，仅保存在您的计算机上。例如，如果您有两台设备，每台设备都会有自己的索引存储。
 
 {% hint style="danger" %}
-We have a prerequisite that the user’s machine is non-compromised and trusted. Basically, if a device is compromised, there are plenty of attack vectors, including RAM scanning and passphrase keylogging, which makes local encryption much less useful. We will definitely make additional encryption later. **For now, we recommend turning HDD encryption and device password on.**
+我们的前提是用户的设备是安全且可信的。如果设备被入侵，存在多种攻击途径，包括内存扫描和密码记录，这会使本地加密的作用大大降低。我们未来肯定会增加额外的加密措施。**目前，我们建议开启硬盘加密（HDD Encryption）并设置设备密码。**
 {% endhint %}
 
-#### Tech details <a href="#tech-details" id="tech-details"></a>
+---
 
-Here are some technical details on encryption and data storage:
+#### 技术细节 <a href="#tech-details" id="tech-details"></a>
 
-* Anytype stores the history of changes for each object you’ve created.
-* Every object’s change has 2 encryption layers with different keys.
-* The first layer is used to connect changes within an object, e.g. "all this encrypted data belongs to the object with id \<abc>".
-* The second layer is used to encrypt the actual data. We use AES with stream encryption with CFB mode.
-* When you create a new change for an object, we periodically send it to our backup node (with only the first-layer key). More info about sync [here](https://tech.anytype.io/any-sync/overview).
-* Anytype backup nodes have access to the first layer key, so it can group changes for the object and send them in one pack when you want to restore your data.
-* Anytype backup nodes HAVE NO access to the second layer [what-is-a-recovery-phrase.md](what-is-a-recovery-phrase.md "mention"), so it can’t read the actual changes to the data.
+以下是关于加密和数据存储的一些技术细节：
+
+* Anytype 会为每个您创建的对象存储更改历史记录。
+* 每次对象的更改都有两层加密，分别使用不同的密钥。
+* **第一层加密**用于连接对象内的更改，例如“所有这些加密数据属于 ID 为 \<abc> 的对象”。
+* **第二层加密**用于加密实际数据。我们使用 AES 流加密（CFB 模式）。
+* 当您为某个对象创建新的更改时，我们会定期将其发送到备份节点（仅使用第一层密钥）。有关同步的更多信息，请参阅[此处](https://tech.anytype.io/any-sync/overview)。
+* Anytype 备份节点可以访问第一层密钥，因此它可以将对象的更改分组并在您需要恢复数据时以一个包的形式发送。
+* Anytype 备份节点 **无法访问第二层密钥**（[什么是助记词](what-is-a-recovery-phrase.md "mention")），因此它无法读取数据的实际更改内容。
+
+---
+
+### 总结
+
+- **隐私保障**：您的数据完全由您掌控，只有您拥有解密密钥。
+- **多层加密**：数据采用双层加密机制，确保即使备份节点也无法访问实际内容。
+- **本地索引**：索引仅存储在本地设备上，不会同步到其他地方，但需确保设备安全。
+- **设备安全建议**：启用硬盘加密和设备密码，以防止潜在的安全威胁。
+
+通过这些措施，Anytype 确保您的数据在传输、存储和使用过程中始终保持高度安全性和隐私性。

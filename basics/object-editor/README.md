@@ -1,23 +1,17 @@
 ---
-description: Let's discover what Objects are, and how to use them to optimize your work.
+description: 让我们来探索什么是对象（Objects），以及如何使用它们来优化您的工作。
 ---
 
-# Objects
+# 对象（Objects）
 
-### What is an Object?
+### 什么是对象？
 
-Forget what you already know about knowledge management tools.&#x20;
+忘掉您对知识管理工具已有的认知吧。
 
-At Anytype we have created the concept that everything you create is an Object. Pages, Notes, Recipes, Books, Movies, Audio, Humans, _everything!_&#x20;
+在 Anytype 中，我们创造了一个全新的概念：**您创建的一切都是一个对象（Object）**。页面、笔记、食谱、书籍、电影、音频、人类，甚至是其他一切！这些都是 **对象**，它们通过 **类型（Types）** 进行组织和分类。
 
-These are all **Objects** that are organized and categorized by **Types**.&#x20;
+您可以使用 **关系（Relations）** 将不同类型的对象连接起来，并在 **关系图（Graph）** 上直观地查看这些连接。
 
-You can connect different **Types** by **Relations** and see how this is visualized on the **Graph**.
+您会在 **库（Library）** 中发现，您可以创建新的类型（Types）。简而言之，对象是一个通用术语，用来描述您正在创建的内容。无论它是页面、笔记，还是其他您定义的类型，它都属于一个对象。
 
-You will see in your **Library** that you can create new Types.&#x20;
-
-In short, an Object is a generalizing term for what you are creating. If it is a page, note, or other Type that you have created.&#x20;
-
-The Object will be organized by the Type of object that it is. &#x20;
-
-It is any node in your graph. The smallest linkable unit. Still classified with types. &#x20;
+对象会根据其所属的类型进行组织。它是您关系图中的任意节点，是最小的可链接单元，同时仍然可以通过类型进行分类。

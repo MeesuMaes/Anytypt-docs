@@ -1,13 +1,66 @@
-# Open Any Initiative
+# 加入开源项目
 
-## **How to contribute**
+Anytype 是一个开源项目，我们欢迎社区成员的贡献。
 
-If you are a developer and want to contribute to the Anytype ecosystem, please check `CONTRIBUTING` docs inside a repository.
+### 如何参与
 
-Follow us on [Github](https://github.com/anyproto) and join [Contributors Community](https://github.com/orgs/anyproto/discussions) to build Anytype together.
+有多种方式可以参与项目：
 
-If you want to learn more about why we chose to open up our code, check the article below:&#x20;
+**代码贡献**
+* 修复 bug
+* 实现新功能
+* 改进性能
+* 编写测试
 
-{% embed url="https://blog.anytype.io/our-open-philosophy/" %}
+**文档贡献**
+* 改进文档
+* 翻译内容
+* 编写教程
+* 更新示例
 
-For any questions about our licenses, please check [https://legal.any.coop/](https://legal.any.coop/), and for any tech questions, please check [https://tech.anytype.io/](https://tech.anytype.io/).
+**社区支持**
+* 回答问题
+* 报告问题
+* 提供反馈
+* 分享经验
+
+### 开始贡献
+
+1. 访问我们的 GitHub 仓库
+2. 阅读贡献指南
+3. 查看待解决的问题
+4. 选择感兴趣的任务
+
+### 开发环境设置
+
+1. Fork 项目仓库
+2. 克隆到本地
+3. 安装依赖
+4. 运行开发环境
+
+### 提交流程
+
+1. 创建新分支
+2. 进行更改
+3. 运行测试
+4. 提交 Pull Request
+
+### 代码规范
+
+我们遵循：
+* 统一的代码风格
+* 测试覆盖要求
+* 文档规范
+* Git 提交规范
+
+### 获取帮助
+
+如果你需要帮助：
+* 查看开发文档
+* 加入开发者讨论
+* 在 GitHub 上提问
+* 联系项目维护者
+
+{% hint style="info" %}
+我们重视每一位贡献者，无论贡献大小。加入我们，一起让 Anytype 变得更好！
+{% endhint %}

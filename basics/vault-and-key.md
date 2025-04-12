@@ -1,21 +1,49 @@
 ---
 description: >-
-  To protect everything you create and your connections with others, you have an
-  encryption key that only you control.
+  为了保护您创建的一切以及与他人的连接，您拥有一个只有您可以控制的加密密钥。
 ---
 
-# Vault & Key
+# 保险库和密钥
 
-### Vault
+保险库是一个容器，它存储了你所有的数据，并使用你的私钥进行加密。
 
-A Vault is an encrypted box stored on your device, which holds your information. It allows you to send, receive, and store information with full privacy and ownership over what you create.
+每个保险库都有一个独特的密钥对（由一个私钥和一个公钥组成）。你的私钥用于加密和解密你的数据，而你的公钥则用于与他人共享。
 
-All the Spaces you create and share will be stored in your Vault. Because public key cryptography is used to secure your Vault, it is unbreakable - all computational resources on earth are not enough to break into one Vault.
+### 保险库文件
 
-### Key
+保险库文件包含你创建的所有内容：
+* 对象
+* 关系
+* 文件
+* 元数据（如最后修改时间、修改历史等）
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-04-26 at 06.45.43.png" alt="Anytype Encrypted Recovery Key"><figcaption><p>Find your unique Key in your Profile Settings</p></figcaption></figure>
+所有这些数据都使用最强大的端到端加密算法进行加密。每个保险库都有一个独特的加密密钥，该密钥只能使用你独有的恢复短语解密。
 
-The Key to your Vault is generated locally on your device when the Vault is created. It is represented by 12 words only you should know. It is like a password that you don’t choose.
+### 如何创建新的保险库？
 
-The Key decrypts your Vault. Only you have access to it. That’s why Anytype cannot recover it for you, if it is lost. You can find your Key in your Profile Settings.
+要创建新的保险库，你需要：
+
+1. 从工作空间菜单中点击"新建保险库"
+2. 命名你的保险库
+3. 然后选择：
+   * 创建一个新的密钥对
+   * 或者导入现有的密钥对（通过输入恢复短语）
+
+{% hint style="info" %}
+每个密钥对都有一个独特的恢复短语。请务必安全保管你的恢复短语，因为它是恢复你数据的唯一方式！
+{% endhint %}
+
+### 本地存储和同步
+
+保险库可以存储在你的设备上（本地文件），也可以同步到Anytype网络。
+
+同步允许你：
+* 在多个设备上访问你的数据
+* 与其他人共享和协作
+* 在丢失设备时恢复你的数据
+
+### 备份和恢复
+
+无论你是否使用同步功能，Anytype都会在你的本地设备上保存一份保险库文件的备份。
+
+你可以使用你独特的恢复短语（或导入备份文件）在任何设备上恢复你的保险库。这意味着即使你丢失了设备，只要你有恢复短语，你就可以恢复你的所有数据。

@@ -1,29 +1,29 @@
-# Storage & Deletion
+# 存储与删除
 
-### Storage <a href="#storage" id="storage"></a>
+### 存储 <a href="#storage" id="storage"></a>
 
-Anytype is offline first; hence, all data you create will be stored locally first. After that, the data is synced to the backup node and your devices for redundancy. We use a private [IPFS](https://docs.ipfs.tech/concepts/what-is-ipfs/) network to handle storage. It is a Peer-To-Peer file system that facilitates decentralized data storage across devices. Local P2P is supported, meaning that you can sync between your devices directly if they are connected through the same local network. This will work no matter what network mode you use, and it's the only way to sync between your devices if you are using local-only mode.
+Anytype 是以离线优先为设计原则的，因此，您创建的所有数据首先会存储在本地。之后，这些数据会被同步到备份节点和您的其他设备上以实现冗余存储。我们使用私有的 [IPFS](https://docs.ipfs.tech/concepts/what-is-ipfs/) 网络来处理存储。这是一个点对点（Peer-To-Peer）文件系统，可促进跨设备的去中心化数据存储。支持本地 P2P 同步，这意味着如果您的设备通过同一局域网连接，它们可以直接进行同步。无论您使用何种网络模式，这种方式都可以工作；如果您使用的是仅限本地模式，这是唯一可以同步设备的方式。
 
-#### Media <a href="#media" id="media"></a>
+#### 媒体文件 <a href="#media" id="media"></a>
 
-Media files are not directly downloaded in overall syncing to save bandwidth. Instead, when that file is requested, it is streamed to your device from the backup node or your devices on the network. For example, if you have a 4K Video, it will be streamed from the backup node or P2P devices to your device. So when you open an object with an image, it downloads. When you press play on video & audio, it begins to download. After that, this file will be stored in the application cache.
+为了节省带宽，媒体文件不会直接在整体同步中下载。相反，当请求该文件时，它会从备份节点或网络中的其他设备流式传输到您的设备。例如，如果您有一段 4K 视频，它将从备份节点或其他设备通过 P2P 流式传输到您的设备上。因此，当您打开带有图片的对象时，它会下载；当您点击视频或音频播放时，它开始下载。之后，该文件将存储在应用缓存中。
 
-Furthermore, we use the deduplication feature to reduce storage. For example, if the same picture is uploaded three times, there is only one image copy stored to reduce storage consumption.
+此外，我们使用重复数据删除功能来减少存储空间占用。例如，如果同一张图片上传了三次，只会存储一份副本以降低存储消耗。
 
-You can remove all the media content from your mobile device via the clear cache option in iOS and Android. This will remove all the data altogether and force the app to sync once again entirely. Since the media download works on-premise, you will remove all cached media and clear some storage.
+您可以通过 iOS 和 Android 的清除缓存选项从移动设备中删除所有媒体内容。这将彻底移除所有缓存的数据，并强制应用重新完全同步。由于媒体下载是基于本地存储的，清除缓存后将移除所有缓存的媒体文件并释放一些存储空间。
 
-You can also manage your files on desktop by going into `Space settings -> Manage Space -> Manage files`.
+您还可以通过桌面版管理文件，进入 `空间设置 -> 管理空间 -> 管理文件`。
 
 {% hint style="info" %}
-Files are stored inside `flatfs dir` in encrypted fragments, so they can’t be accessed outside of Anytype.
+文件以加密片段的形式存储在 `flatfs dir` 中，因此无法在 Anytype 外部访问。
 {% endhint %}
 
-### Deletion <a href="#deletion" id="deletion"></a>
+### 删除 <a href="#deletion" id="deletion"></a>
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FJbcKxgThRdSa4vZyLbvH%2Fuploads%2Fgit-blob-dcb526128401892f1a4773091dbf735febb4a875%2FScreenshot%202021-11-02%20at%2016.25.23.png?alt=media" alt=""><figcaption><p>Complete deletion in Bin</p></figcaption></figure>
+<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FJbcKxgThRdSa4vZyLbvH%2Fuploads%2Fgit-blob-dcb526128401892f1a4773091dbf735febb4a875%2FScreenshot%202021-11-02%20at%2016.25.23.png?alt=media" alt=""><figcaption><p>回收站中的完全删除</p></figcaption></figure>
 
-To delete objects in Anytype, you will first need to move them to the [finding-your-objects.md](../../basics/anytype-library/finding-your-objects.md "mention"). Afterwards, you can remove them completely from all devices by permanently deleting them from the bin. All your devices will also delete them when getting online. This action is irreversible, so please be careful.
+要在 Anytype 中删除对象，首先需要将其移动到 [查找您的对象](../../basics/anytype-library/finding-your-objects.md "mention")。然后，您可以通过永久删除回收站中的对象从所有设备中彻底移除它们。当您的设备上线时，它们也会被同步删除。此操作不可逆，请务必谨慎。
 
-The deleted objects are still accessible in read-only mode, either from the bin, or through previously added links. You are also able to restore these objects directly through the read-only mode without needing to go through the bin.
+已删除的对象仍可通过只读模式访问，无论是从回收站还是通过之前添加的链接。您也可以直接通过只读模式恢复这些对象，而无需经过回收站。
 
-Types and relations created by Anytype can't be deleted at the moment, but might be deletable in future releases.
+目前由 Anytype 创建的类型和关系无法删除，但未来版本可能会支持删除。

@@ -1,11 +1,11 @@
-# Layouts
+# 布局
 
-A **Layout** defines the general look and feel of the Object and determines what actions can be taken for the Object.
+**布局**定义了对象的一般外观和感觉，并决定了可以对对象执行的操作。
 
-There are currently four basic layouts that users can choose for their Objects, and there are plans for contributors to be able to create new layouts in the future.
+目前用户可以为对象选择四种基本布局，未来还计划允许贡献者创建新的布局。
 
-You can choose a recommended object layout for each type through the [type library](../anytype-library/#type-library), and you can also choose a different layout for each [templates.md](templates.md "mention").
+您可以通过[类型库](../anytype-library/#type-library)为每种类型选择推荐的对象布局，也可以为每个[模板](templates.md "mention")选择不同的布局。
 
-You can find the object layout menu above the Object title; next to the cover and icon buttons. This is where you can change the layout of the object or set the layout width. Some layouts even let you change the text alignment.
+您可以在对象标题上方找到对象布局菜单；它位于封面和图标按钮旁边。在这里，您可以更改对象的布局或设置布局宽度。一些布局甚至允许您更改文本对齐方式。
 
 <figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>

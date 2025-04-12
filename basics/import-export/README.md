@@ -1,38 +1,38 @@
-# Import & Export
+# 导入与导出
 
-You can import or export from your space by navigating to **Anytype > Space Settings > Import / Export Space** in the menu bar:
+您可以通过导航到菜单栏中的 **Anytype > 空间设置 > 导入/导出空间** 来导入或导出您的空间：
 
 <figure><img src="../../.gitbook/assets/image (83).png" alt="" width="375"><figcaption></figcaption></figure>
 
-Alternatively, you can find the Import to / Export Space options under the Integrations section of your [Space Settings](../space/space-settings.md):
+或者，您可以在[空间设置](../space/space-settings.md)的集成部分找到导入到/导出空间选项：
 
 <figure><img src="../../.gitbook/assets/image (82).png" alt="" width="375"><figcaption></figcaption></figure>
 
-It's also possible to simply type “Import” or “Export” in the Search Menu.
+您也可以在搜索菜单中简单地输入“导入”或“导出”。
 
-### Import
+### 导入
 
-We currently offer support for importing the following:
+我们目前支持导入以下内容：
 
-* **MD (Markdown)**: You can import individual `.md` files or a zip file containing multiple Markdown files. Please note that relations are not exported at this time.
+* **MD (Markdown)**: 您可以导入单个 `.md` 文件或包含多个 Markdown 文件的 zip 文件。请注意，目前关系不会被导出。
 * **HTML**
 * **TXT**
-* **CSV:** It is possible to map columns to existing pre-installed relations like Phone, E-mail, etc. by just using the same title.&#x20;
+* **CSV:** 可以通过使用相同的标题将列映射到现有的预安装关系（如电话、电子邮件等）。
 * **Any-Block**:
   * **Protobuf**
   * **JSON**
 
-After your import is done, a new collection should appear in your favorites widget in your sidebar. All of your imported objects should be there.
+导入完成后，一个新的集合将出现在侧边栏的收藏夹小部件中。所有导入的对象都将在那里。
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-You will also be asked which objects from your imported files you want to add to your Favorites:
+您还会被询问是否将导入文件中的哪些对象添加到收藏夹：
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-### Export
+### 导出
 
-We currently offer support for exporting in the following formats:
+我们目前支持以下格式的导出：
 
 * **Markdown**
-* **Any-Block** (both Protobuf and JSON)
+* **Any-Block**（包括 Protobuf 和 JSON）

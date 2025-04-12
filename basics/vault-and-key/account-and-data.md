@@ -1,79 +1,79 @@
 ---
-description: Customize your profile, set up additional security, or delete your vault
+description: 自定义您的个人资料，设置额外的安全性或删除您的保险库
 ---
 
-# Vault Settings
+# 保险库设置
 
-You can access your vault settings from one of these 3 places:
+您可以通过以下三个地方之一访问您的保险库设置：
 
 <div><figure><img src="../../.gitbook/assets/Captura desde 2024-08-09 11-05-47.png" alt="" width="323"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (6).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-## Profile
+## 个人资料
 
-Here you can add your **name, bio,** and **profile picture.** Your profile represents an Object in your Anytype Graph which you can freely link to other Objects.
+在这里，您可以添加您的 **姓名、简介** 和 **个人资料图片**。您的个人资料在您的 Anytype 图中表示为一个对象，您可以自由地将其链接到其他对象。
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-08-17 at 18.24.27.png" alt=""><figcaption></figcaption></figure>
 
-## Preferences
+## 偏好设置
 
 <figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
-### Language & Spelling
+### 语言和拼写
 
-**Spellcheck Languages:** You can enable automatic spellcheck from 40+ languages, or disable the spellcheck.
+**拼写检查语言：** 您可以启用 40 多种语言的自动拼写检查，或禁用拼写检查。
 
-**Interface Language:** You can choose amongst the community-translated versions to localize your interface.
+**界面语言：** 您可以选择社区翻译的版本来本地化您的界面。
 
-### Editor Personalization&#x20;
+### 编辑器个性化
 
-**Show Quick-capture menu on:** You can decide how you want the new capture menu to work (click, hover, or right-click).
+**显示快速捕获菜单：** 您可以决定新捕获菜单的工作方式（点击、悬停或右键单击）。
 
-**Link to object style:** You can decide which style should the /link command use by default (either card or text).
+**链接到对象样式：** 您可以决定 /link 命令默认使用的样式（卡片或文本）。
 
-**Open objects in fullscreen:** You can decide whether you want all objects to be opened in fullscreen by default.
+**全屏打开对象：** 您可以决定是否希望所有对象默认以全屏打开。
 
-**Display relative dates:** You can decide whether you want relative dates like today / tomorrow to be used, or whether you want all dates to show the exact date.
+**显示相对日期：** 您可以决定是否使用今天/明天等相对日期，或者是否希望所有日期显示确切日期。
 
-### App Appearance
+### 应用外观
 
-**Automatically show and hide sidebar:** With this option disabled the sidebar won't automatically pop out when you hover over the left side of the screen.
+**自动显示和隐藏侧边栏：** 禁用此选项后，侧边栏在您将鼠标悬停在屏幕左侧时不会自动弹出。
 
-**Sidebar mode:** Choose if you want your spaces to be shown alongside the widgets in the sidebar.
+**侧边栏模式：** 选择是否希望您的空间与侧边栏中的小部件一起显示。
 
-**Show Anytype in system tray:** Anytype will always stay running in the background, but you have the option to either have it show in the system tray or not.
+**在系统托盘中显示 Anytype：** Anytype 将始终在后台运行，但您可以选择是否在系统托盘中显示它。
 
-**Show menu bar:** This setting will show the default menu bar for your OS.
+**显示菜单栏：** 此设置将显示您操作系统的默认菜单栏。
 
-### Color mode
+### 颜色模式
 
-**Set color mode:** Choose between light, dark or system color modes.
+**设置颜色模式：** 在浅色、深色或系统颜色模式之间选择。
 
-## Pin Code (Desktop)
+## PIN 码（桌面）
 
-If you want more privacy, like when sharing a computer, you can set up a PIN code. This will lock the app and keep your Key safe. You'll just need to enter the PIN each time your Anytype session ends (after 1 minute, 5 minutes, 10 minutes, or 1 hour) or when you need to access your Key.
+如果您想要更多隐私，例如在共享计算机时，您可以设置 PIN 码。这将锁定应用程序并保护您的密钥安全。每次您的 Anytype 会话结束（1 分钟、5 分钟、10 分钟或 1 小时后）或需要访问您的密钥时，您只需输入 PIN 即可。
 
 {% hint style="warning" %}
-We do not store this data so we cannot help you in recovering your vault in the case it is lost. Make sure to write down your pin code next to your Key.
+我们不存储此数据，因此如果丢失，我们无法帮助您恢复保险库。请确保将 PIN 码写在您的密钥旁边。
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
 
-## Spaces
+## 空间
 
-You can also manage all of your spaces by going into `Settings > Spaces`.
+您还可以通过进入 `设置 > 空间` 来管理您的所有空间。
 
-## Data Management
+## 数据管理
 
-**Local Files:** You can choose to offload files stored in Anytype to our Encrypted Backup Node.
+**本地文件：** 您可以选择将存储在 Anytype 中的文件卸载到我们的加密备份节点。
 
-**Data Location:** You can also decide where your data is stored (desktop only).
+**数据位置：** 您还可以决定数据存储的位置（仅限桌面）。
 
-**Vault Deletion:** Also, if you would like to delete your vault, you can do it in this section.
+**保险库删除：** 此外，如果您想删除保险库，可以在此部分进行操作。
 
-## Key
+## 密钥
 
-You can access your Key or scan the QR code to connect your mobile device. For more details, please check [what-is-a-recovery-phrase.md](../../data-and-security/what-is-a-recovery-phrase.md "mention").
+您可以访问您的密钥或扫描二维码以连接您的移动设备。有关更多详细信息，请查看 [恢复短语是什么](../../data-and-security/what-is-a-recovery-phrase.md "mention")。
 
-## Membership
+## 会员
 
-You can manage your [membership](../../memberships/monetization/) plans here.
+您可以在此处管理您的 [会员](../../memberships/monetization/) 计划。

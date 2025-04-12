@@ -1,33 +1,65 @@
 ---
 description: >-
-  A folder-like structure where you can visualize and batch edit objects of any
-  type
+  一个类似文件夹的结构，你可以在其中可视化和批量编辑任何类型的对象
 ---
 
-# Collections
+# 集合
 
-Collections can be used to organize a variety of different objects and store them in one place.
+集合是用于组织和显示具有相同类型的对象的容器。它们类似于数据库，可以让你以结构化的方式存储和查看对象。
 
-You are not restricted to viewing only one Object Type at a time, this means you can have multiple different types within one collection.
+### 创建集合
 
-#### Example
+创建集合有两种方式：
 
-If you are organizing your meal prep for the week, you might have a list of recipes, as well as ingredients and a shopping list.
+**1. 从类型创建**
+* 打开一个类型
+* 点击 "创建集合"
 
-The main types you may have could be Recipes and Ingredients.
+**2. 从命令菜单创建**
+* 打开命令菜单（CMD/CTRL + K）
+* 输入 "新建集合"
+* 选择一个类型
 
-In a Collection, you can organize all of this Types together seamlessly.
+### 视图
 
-### Adding Objects
+集合提供了多种视图选项来展示你的对象：
+* 表格视图
+* 看板视图
+* 日历视图
+* 画廊视图
+* 列表视图
 
-To add new Objects to a Collection, simply click on the New buttons either in the top right corner or at the bottom of a collection.
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-17 at 19.03.32.png" alt=""><figcaption></figcaption></figure>
 
-<div><figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
+### 筛选器和排序
 
-To add an existing Object to a Collection while in the collection view, you can hover over the Existing object menu option under the arrow menu.
+你可以使用筛选器和排序来组织集合中的对象：
 
-<figure><img src="../../.gitbook/assets/existing-objects-to-collection_shadow.png" alt=""><figcaption></figcaption></figure>
+**筛选器**
+* 按关系值筛选
+* 使用多个条件
+* 创建智能集合
 
-To add an existing Object to a Collection outside of the collection view, you can use the Add to Collection menu option from the object menu.
+**排序**
+* 按任何关系排序
+* 支持多级排序
+* 自定义排序顺序
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+### 分组
+
+在某些视图中，你可以按关系对对象进行分组。例如：
+* 在看板视图中按状态分组
+* 在表格视图中按类别分组
+
+### 模板
+
+每个集合都可以有一个默认模板，当你在集合中创建新对象时会使用这个模板。
+
+要设置模板：
+1. 打开集合设置
+2. 选择 "模板"
+3. 创建或选择一个模板对象
+
+{% hint style="info" %}
+集合是动态的 - 当对象满足集合的筛选条件时，它们会自动添加到集合中。
+{% endhint %}

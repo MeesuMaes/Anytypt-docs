@@ -1,36 +1,29 @@
 ---
-description: How do you create an object?
+description: 如何创建对象？
 ---
 
-# Ways to Create Objects
+# 创建对象
 
-### Navigation menu
+创建对象有几种方法：你可以使用快捷键、命令菜单，或者点击任何集合或关系中的"+"按钮。
 
-When clicking the plus button, you’ll immediately create a new object with the type that is set as your default object type in your space settings.&#x20;
+### 使用命令菜单
 
-When clicking the arrow button, you'll be presented with a menu of standard types, plus your most recently-used Types. You can then choose which one you want to create.
+按下 CMD/CTRL + K 打开命令菜单并选择"新建对象"。
 
-<div><figure><img src="../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure></div>
+### 从集合中创建
 
-### Forward Slash Command
+点击任何集合中的 + 按钮。这将根据该集合对应的类型创建一个新对象。
 
-When working in Anytype you can create a new Object by typing the "/". This will bring up the list of Objects that you have created. Simply select the Object you'd like to create and it will be linked at your current place.
+<figure><img src="../../.gitbook/assets/Screenshot 2023-09-05 at 12.38.55.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
+### 从关系中创建
 
-You can also link to an existing Object here.
+你可以通过点击关系框中的 + 按钮来创建新对象。
 
-### Use a Shortcut
+<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
 
-For a quick creation of a new Object, you can use this shortcut: ⌘+N
+### 使用快捷键
 
-This will perform the same action as clicking the "+" sign in the navigation bar.
+不确定选择什么类型？你可以按下 CMD/CTRL + N 快速创建一个"无类型"对象。
 
-### Turn Into Object
-
-If you are working on something in an existing Object and would like to transform only a certain block into an Object, you can do that through the action menu by either:
-
-1. Hovering to the left side of the block that you are working on and clicking the 3 dots.
-2. Using the ⌘+/ keyboard shortcut.
-
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption><p>Action menu</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-17 at 18.37.45.png" alt=""><figcaption></figcaption></figure>

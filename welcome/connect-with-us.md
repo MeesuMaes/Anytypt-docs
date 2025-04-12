@@ -1,13 +1,12 @@
 ---
 description: >-
-  We'd love to keep in touch. Find us online to stay updated with the latest
-  happenings in the Anyverse:
+  我们非常期待与您保持联系。通过以下渠道关注我们，获取Anyverse的最新动态：
 ---
 
-# Connect with Us
+# 联系我们
 
 {% hint style="info" %}
-Don't forget to join our [community-forum.md](../community/community-forum.md "mention"), and the [join-the-open-source-project.md](../community/join-the-open-source-project.md "mention")!
+别忘了加入我们的[社区论坛](../community/community-forum.md "mention")，以及[参与开源项目](../community/join-the-open-source-project.md "mention")！
 {% endhint %}
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><h3>Newsletter</h3></td><td>Stay on top of product updates, company news, and musings from the Anyteam</td><td><a href="https://anytype.io/?popup=mailinglist">https://anytype.io/?popup=mailinglist</a></td><td></td></tr><tr><td><h3>Blog</h3></td><td>Read updates and announcements from the Anyteam</td><td><a href="https://blog.anytype.io">https://blog.anytype.io</a></td><td></td></tr><tr><td><h3>Twitter</h3></td><td>Catch some hot takes on what's happening in the industry</td><td><a href="https://twitter.com/anytypelabs?lang=en">https://twitter.com/anytypelabs?lang=en</a></td><td></td></tr><tr><td><h3>YouTube</h3></td><td>Watch some fun educational content about why data ownership matters</td><td><a href="https://www.youtube.com/c/anytype">https://www.youtube.com/c/anytype</a></td><td></td></tr><tr><td><h3>Reddit</h3></td><td>Post questions about anything you're interested in</td><td><a href="https://www.reddit.com/r/Anytype/">https://www.reddit.com/r/Anytype/</a></td><td></td></tr><tr><td><h3>Telegram</h3></td><td>Chat with our team and community members</td><td><a href="https://t.me/anytype">https://t.me/anytype</a></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><h3>新闻通讯</h3></td><td>获取产品更新、公司动态以及Anyteam的深度思考</td><td><a href="https://anytype.io/?popup=mailinglist">https://anytype.io/?popup=mailinglist</a></td><td></td></tr><tr><td><h3>博客</h3></td><td>阅读Anyteam的更新和公告</td><td><a href="https://blog.anytype.io">https://blog.anytype.io</a></td><td></td></tr><tr><td><h3>Twitter</h3></td><td>了解我们对行业热点的犀利观点</td><td><a href="https://twitter.com/anytypelabs?lang=en">https://twitter.com/anytypelabs?lang=en</a></td><td></td></tr><tr><td><h3>YouTube</h3></td><td>观看有趣的教育内容，了解数据主权的重要性</td><td><a href="https://www.youtube.com/c/anytype">https://www.youtube.com/c/anytype</a></td><td></td></tr><tr><td><h3>Reddit</h3></td><td>提出您感兴趣的任何问题</td><td><a href="https://www.reddit.com/r/Anytype/">https://www.reddit.com/r/Anytype/</a></td><td></td></tr><tr><td><h3>Telegram</h3></td><td>与我们的团队和社区成员交流</td><td><a href="https://t.me/anytype">https://t.me/anytype</a></td><td></td></tr></tbody></table>

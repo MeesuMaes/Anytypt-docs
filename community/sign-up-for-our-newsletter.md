@@ -1,11 +1,9 @@
-# Sign Up for Our Newsletter!
+# 订阅我们的新闻通讯！
 
-### Join our newsletter club and stay up to date with all of the latest announcements.&#x20;
+### 加入我们的新闻通讯俱乐部，随时掌握最新公告。
 
-We have some very exciting stuff coming up from **Update Releases, Town Halls, and other Community news and events.**&#x20;
+我们即将推出一些非常令人兴奋的内容，包括**更新发布、社区大会以及其他社区新闻和活动**。
 
-Our Community is very important to us at Anytype, and we prioritize informing those who are connected with us first.&#x20;
+在Anytype，社区对我们非常重要，我们优先向与我们保持联系的人提供信息。无论您是我们的社区成员还是关注我们的社交媒体，您都可以保持联系。然而，我们建议您订阅我们的新闻通讯，因为我们总是会通过电子邮件第一时间推送公告（有时时间紧迫），您肯定不想成为最后一个听到新消息的人。
 
-Whether you are in our community or following our social media, you will be connected. However, we suggest signing up to our newsletter as we always push announcements out first through email (sometimes time sensitive) and you wouldn't want to be last to hear about something new.
-
-[**Sign up here!**](https://cdn.forms-content.sg-form.com/168cc8e2-00a0-11ee-b0fd-be5ac30cd062)
+[**立即订阅！**](https://cdn.forms-content.sg-form.com/168cc8e2-00a0-11ee-b0fd-be5ac30cd062)

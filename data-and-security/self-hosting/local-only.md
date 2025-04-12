@@ -1,24 +1,32 @@
-# Local-only
+# 仅限本地模式（Local-only）
 
-If you don't want to use any backup solutions at all, you can use our local-only mode. This will disable the backup node completely, and you will only be able to sync between your devices if they are connected to the same local network. Regularly exporting your spaces or backing up your work directory is recommended if you decide to use this mode since your data is not backed up anywhere else.
+如果您完全不想使用任何备份解决方案，您可以选择我们的**仅限本地模式（local-only mode）**。此模式将完全禁用备份节点，您的设备之间只能在连接到同一局域网时进行同步。如果您决定使用此模式，建议定期导出您的空间或备份您的工作目录，因为您的数据不会存储在其他任何地方。
 
-### How to switch to local-only mode
+### 如何切换到仅限本地模式
 
-#### Desktop
+#### 桌面端
 
-1. Log out from your current identity.
-2. On the onboarding screen, click a gear icon in the top right corner.
-3. In the “Network” field choose the “Local-only” option.
-4. Click the “Save” button.
-5. Create a new identity or log in with an existing one.
+1. 从当前身份（identity）中注销。
+2. 在初始设置屏幕上，点击右上角的齿轮图标。
+3. 在“网络”字段中选择“仅限本地”选项。
+4. 点击“保存”按钮。
+5. 创建一个新的身份或使用现有身份登录。
 
 <figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
-#### Mobile
+#### 移动端
 
-1. Log out from your current identity.
-2. On the onboarding screen, click a gear icon in the top right corner.
-3. Click on “Local-only” in the “Networks” sub-menu.&#x20;
-4. Create a new identity or log in an existing one.
+1. 从当前身份（identity）中注销。
+2. 在初始设置屏幕上，点击右上角的齿轮图标。
+3. 在“网络”子菜单中点击“仅限本地”选项。
+4. 创建一个新的身份或使用现有身份登录。
 
 <figure><img src="../../.gitbook/assets/Screenshot_20240411-104810_Anytype2.png" alt="" width="375"><figcaption></figcaption></figure>
+
+---
+
+**注意事项：**
+
+- **数据安全：** 在仅限本地模式下，您的数据不会上传到任何远程服务器或备份节点。因此，请务必采取措施保护您的数据，例如定期导出空间或将工作目录备份到外部存储设备。
+- **设备同步：** 如果您有多台设备并希望它们保持同步，请确保所有设备都连接到同一局域网（LAN）。
+- **恢复难度：** 如果没有备份，一旦设备丢失或损坏，数据可能无法恢复。请谨慎使用此模式。

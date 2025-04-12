@@ -1,33 +1,33 @@
 ---
-description: Let's get started using Anytype!
+description: 开始使用 Anytype！
 ---
 
-# Setting Up Your Vault
+# 设置您的保险库
 
-### Create your vault
+### 创建您的保险库
 
-If you haven't created a vault yet, you can easily create one by clicking **New Vault** and then following the provided instructions.
+如果您尚未创建保险库，可以通过点击 **新建保险库** 并按照提供的说明轻松创建。
 
-#### Log-in using your Key
+#### 使用密钥登录
 
-On the contrary, if you already have a vault, click on **Login** and enter your [what-is-a-recovery-phrase.md](../../data-and-security/what-is-a-recovery-phrase.md "mention") to proceed.
+相反，如果您已经有一个保险库，请点击 **登录** 并输入您的 [恢复短语是什么](../../data-and-security/what-is-a-recovery-phrase.md "mention") 以继续。
 
 {% hint style="danger" %}
-Make sure you store your [what-is-a-recovery-phrase.md](../../data-and-security/what-is-a-recovery-phrase.md "mention") somewhere safe, and try not to share it with anyone who can't be trusted!
+请确保将您的 [恢复短语是什么](../../data-and-security/what-is-a-recovery-phrase.md "mention") 存放在安全的地方，并尽量不要与不可信的人分享！
 {% endhint %}
 
-#### Log-in using the QR code
+#### 使用二维码登录
 
-In addition to using your key to log in, you can also use the QR code to login faster if your desktop is close by.
+除了使用密钥登录外，如果您的桌面设备就在附近，您还可以使用二维码更快地登录。
 
-To log in using the QR code, simply navigate to your Key.
+要使用二维码登录，只需导航到您的密钥。
 
-`Settings > Vault > Key`.
+`设置 > 保险库 > 密钥`。
 
-Beneath your Key you'll find your blurred out QR code, when you click the image it will display.
+在您的密钥下方，您会看到模糊显示的二维码，点击图像即可显示。
 
-Now you can scan this code with your mobile device and install the app.
+现在，您可以使用移动设备扫描此代码并安装应用程序。
 
-### Migrate existing data
+### 迁移现有数据
 
-If you would like to import your existing data from other apps, please check out [import-export](../import-export/ "mention").
+如果您想从其他应用程序导入现有数据，请查看 [导入导出](../import-export/ "mention")。

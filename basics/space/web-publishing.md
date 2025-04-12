@@ -1,20 +1,20 @@
-# Web Publishing
+# 网页发布
 
-You can now publish Objects as static web pages (HTTPS links) on your personal subdomain if you have \*any name. These pages are uploaded to our servers as unencrypted HTML files.&#x20;
+您现在可以将对象发布为静态网页（HTTPS 链接），并在您的个人子域上展示这些页面。这些页面将作为未加密的 HTML 文件上传到我们的服务器。
 
-This is an early version— linked Objects, and blocks like Sets and Collections aren’t supported yet. Multi-page publishing and other enhancements are on the way, and we’d love your feedback to guide these improvements.
+这是一个早期版本——链接的对象以及集合和集合视图等块目前尚不支持。多页面发布和其他增强功能正在开发中，我们希望您的反馈能指导这些改进。
 
 <figure><img src="../../.gitbook/assets/webpublishing_2x (new).png" alt=""><figcaption></figcaption></figure>
 
-### Encryption
+### 加密
 
-When users use web publishing, we upload objects unencrypted for a number of reasons:
+当用户使用网页发布时，我们会以未加密的形式上传对象，原因如下：
 
-* Users explicitly choose an object to publish. So we limit the chance of accidental leakage.
-* If users want their website to be indexed by search engines, it should be plaintext.
-* The solution of decrypting in the browser and including the encryption key in the URL is a bit tricky in the case of multi-object exports.
-* We do rendering and caching server-side to limit resource consumption.
+* 用户明确选择了要发布的对象，因此我们将意外泄漏的可能性降到最低。
+* 如果用户希望其网站被搜索引擎索引，则需要以明文形式存在。
+* 在浏览器中解密并在 URL 中包含加密密钥的解决方案在多对象导出情况下有些棘手。
+* 我们在服务器端进行渲染和缓存，以限制资源消耗。
 
-The object is decrypted locally on the device and then uploaded to the web publishing server in Anyblock format.
+对象会在设备上本地解密，然后以 Anyblock 格式上传到网页发布服务器。
 
-If you have files in your object, we include the encryption keys for those files. But because each file has a unique locally-generated encryption key, it doesn't compromise your account in any way.
+如果您的对象中包含文件，我们会包含这些文件的加密密钥。但由于每个文件都有一个唯一的本地生成的加密密钥，这不会以任何方式危及您的账户安全。

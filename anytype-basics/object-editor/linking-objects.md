@@ -1,76 +1,47 @@
 ---
-Description: How to link your Objects with Relations or Simple Links.
+Description: 如何通过关系或简单链接将对象链接起来。
 ---
 
-# Links
+# 链接对象
 
-### Creating New Links
+在 Anytype 中，对象之间的链接是建立知识网络的基础。有多种方式可以链接对象：
 
-#### Link to another Object in Anytype
+### 直接链接
 
-Directly through the canvas by using:
+最简单的方式是使用 `@` 或 `[[` 符号。开始输入对象名称，然后从下拉列表中选择要链接的对象。
 
-1. **Block Links.** Add the slash character ("/") to invoke a command bar, and then look for the `Link to Object` option in the menu. These can appear either as text or as cards.
-2. **Inline Links**. Type @ to invoke the Object picker menu.
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-17 at 18.43.17.png" alt=""><figcaption></figcaption></figure>
 
-With Relations by assigning an Object Relation Type in the Object menu.
+### 通过关系
 
-#### Link to external Object on your device
+关系是一种特殊类型的链接，它允许你在对象之间建立结构化的连接。你可以：
+* 创建自定义关系
+* 为关系添加属性
+* 通过关系过滤和组织对象
 
-If you want to add a link to an external Object on your desktop, please use the links **starting with file:///** plus the local file destination. For example:
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-17 at 18.44.32.png" alt=""><figcaption></figcaption></figure>
 
-* file:///Users/Alex/Downloads/Protocol-Berg.pdf — to open PDFs;
-* file:///Users/Alex/Downloads/my\_budget.xlsx — to open spreadsheets (Excel, Numbers).
+### 拖放链接
 
-To add such a link, pick up "Link to website" just like when you add a new link to a website.
+你也可以通过简单地将一个对象拖放到另一个对象中来创建链接。这将创建一个直接链接到该对象的块。
 
-#### Date mentions
+### 复制链接
 
-You can use **Inline Links** to quickly link to either absolute or relative dates.
+要获取对象的链接：
+1. 右键点击对象
+2. 选择"复制链接"
+3. 将链接粘贴到任何其他对象中
 
-Some examples:
+### 反向链接
 
-* @now or @today
-* @tomorrow
-* @nextweek
-* @nextmonth
-* @24/8/2023
+当你链接到一个对象时，该链接会自动显示在目标对象的反向链接部分中。这让你可以看到哪些对象链接到当前对象。
 
-It's also possible to use `@date` or `/date` to quickly open the date selection menu.
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-17 at 18.46.05.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+### 链接预览
 
-#### Link aliases
+将鼠标悬停在任何链接上都会显示该对象的预览。这让你可以快速查看链接的内容而无需打开它。
 
-You can use regular links to link to a specific object in your space using a different name.&#x20;
-
-1. Write the name of your link first.
-2. Select the name and press `Ctrl + K`.
-3. Search for the object you want to link, and select it.
-
-### Checking Existing Links
-
-#### Relations on the Graph
-
-In your documents you may have multiple references or connections which could be attached to other work in your library. The Graph is the visualizer for this. Objects connected to other Objects, connected to Humans, or Tasks.
-
-Learn more about [relations](../../basics/relations/ "mention") & The [graph.md](../../basics/graph.md "mention") here.
-
-#### Use the Flow
-
-Another option to check which Objects are linked together can be found in the Flow tab next to the Graph.
-
-On the top, center of your screen you will see the option to toggle to **Flow** view. This will show you which Object is linked before and after the current Object you are viewing.
-
-#### Backlinks
-
-We've also recently implemented backlinks as part of our relations system.&#x20;
-
-By default, if the backlinks relation is not empty, you will be able to find it in your featured section. Clicking on it will show a list of all the linked objects.\
-If an object has no backlinks, the relation will not be shown in the featured section, but you can still locate it in your object relations panel.
-
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-#### Collections
-
-Collections also use links to manage what is shown in their canvas. To add an existing Object to a Collection, use the **Link To** option from the Object context menu.
+{% hint style="info" %}
+链接是双向的 - 当你在一个对象中创建链接时，它会自动在两个对象之间建立连接。
+{% endhint %}

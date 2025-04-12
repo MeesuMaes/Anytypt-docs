@@ -1,85 +1,62 @@
 ---
-description: A special space just for Anytypers!
+description: 一个专属于 Anytypers 的特别空间！
 ---
 
-# Community Forum
+# 社区论坛
 
-{% embed url="https://community.anytype.io" %}
+我们的社区论坛是一个分享想法、提出问题和与其他 Anytype 用户交流的地方。
 
-In our community, you'll find various **categories** and **tags** in which you can find previous posts from others who may have had similar experiences to yours. The various categories include: News & Announcements, General Discussion, How To, Feature Requests, Bug Reports, and Lounge.
+### 加入社区
 
-### How to Join the Community?
+访问我们的论坛：[community.anytype.io](https://community.anytype.io)
 
-If you want to post in the Anytype Community, you'll need an account.
+在那里你可以：
+* 阅读公告
+* 参与讨论
+* 分享使用技巧
+* 提出功能建议
+* 报告问题
 
-In your desktop app, click the **?** (Help) button in the lower right, then "[Join Our Community](https://community.anytype.io/invites/sig5xTU4ZZ)".
+### 论坛分类
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-08-23 at 17.42.16.png" alt="" width="306"><figcaption></figcaption></figure>
+论坛分为几个主要板块：
 
-Alternatively, find the menu bar at the top of the window just below the title bar, and then click on `Help > Report a Bug.`
+**一般讨论**
+* 分享想法和反馈
+* 讨论最佳实践
+* 提出一般性问题
 
-<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+**技术支持**
+* 获取帮助
+* 报告错误
+* 解决技术问题
 
-Report Bugs
+**功能请求**
+* 提出新功能建议
+* 投票支持想法
+* 跟踪功能开发进度
 
-### Squash that bug!
+### 参与指南
 
-Experiencing something weird? Tell the team and let's get it solved. We want this application to be as spotless as possible.
+为了维护一个友好和有帮助的社区环境：
+* 发帖前先搜索相似主题
+* 选择合适的板块发帖
+* 提供清晰和详细的信息
+* 尊重其他社区成员
+* 遵守社区准则
 
-When creating a bug report on the Community Forum, you'll be presented with template which will give our team the precise information necessary to comprehend the issue. We kindly ask you to please follow this format as explicitly as you can.
+### 获取帮助
 
-Providing a clear and accurate explanation of the bug you encountered will assist our Mods and Nightly Ops team in reproducing the issue. This will establish that the problem is widespread and should be escalated to our dev team for more immediate attention.
+如果你需要帮助：
+1. 先使用搜索功能
+2. 查看相关板块的置顶帖
+3. 如果找不到答案，创建新帖子
+
+创建新帖子时：
+* 使用描述性标题
+* 提供详细信息
+* 说明你已尝试过的解决方案
 
 {% hint style="info" %}
-You can find your **Technical Information** by going to `Help > Technical Information` on desktop, or `Profile > About > Tech info` on mobile.
+我们的社区管理员和资深用户经常在论坛上提供帮助和建议。
 {% endhint %}
-
-{% embed url="https://community.anytype.io/c/bug-reports/7" %}
-
-### Request a Feature & Vote
-
-This is the place to post, contribute to, & vote for all things related to feature requests & new feature development!&#x20;
-
-We prioritize our building agenda based on what is most desired by our community.&#x20;
-
-So if there is something you want to see happen, go out and vote for it!
-
-Beware! Search for a topic before, see if it already exists _before_ adding a new recommendation. You wouldn't want to be that guy...
-
-{% embed url="https://community.anytype.io/c/feature-requests/6" %}
-
-### Get help from the community and Any Team!
-
-Are you looking for some help building and using your Anytype? If these docs didn't help you enough, you can always check and see if someone in the community has asked a similar question.&#x20;
-
-If you need suggestions of what to build or inspiration from seeing how others are using Antype, you can find an abundance here.&#x20;
-
-This is the place to get some assistance or shout-out if you have questions unrelated to feature requests or bugs!
-
-#### Don't forget Trail Guides!
-
-A resource hub of technical procedures, tutorials, and demos for various aspects of Anytype.
-
-{% embed url="https://community.anytype.io/c/how-to/8" %}
-
-### Share Your Feedback
-
-We love to keep the campfire chat going all day n all night!
-
-To discuss anything related to Anytype.
-
-Any-thing.
-
-Well, just those which you feel don't make the cut for any of the other categories.
-
-Those posts can go into this category.
-
-#### We love to hear your thoughts and feedback.
-
-Tell us your first impressions, give us feedback or suggestions for feature optimizations.
-
-Have you created something in Anytype that you want to show off? Share it with the community!
-
-We're talking templates, use-cases organization ideas, layouts, etc.
-
-{% embed url="https://community.anytype.io/c/general-discussion/10" %}

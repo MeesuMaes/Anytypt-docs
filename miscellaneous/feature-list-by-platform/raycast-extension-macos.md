@@ -1,19 +1,21 @@
-# Raycast Extension (macOS)
+# Raycast 扩展（macOS）
 
-Our long-awaited API is beginning to take shape! The first step is Raycast integration, allowing you to create, read, and delete Spaces, Objects, and Types, as well as search across them, all from Raycast on macOS.
+我们期待已久的 API 正在逐步成型！第一步是与 **Raycast** 的集成，您可以通过 macOS 上的 Raycast 创建、读取和删除空间（Spaces）、对象（Objects）和类型（Types），还可以跨它们进行搜索。
 
-While this initial version focuses on a basic set of features, we’re laying the groundwork for an open API that will eventually support bulk import and export, NoCode tools, and more integrations. We’re excited to see what you’ll build!
+虽然这个初始版本专注于一组基础功能，但我们正在为开放 API 奠定基础，未来将支持批量导入和导出、无代码工具（NoCode tools）以及更多集成。我们迫不及待想看看您会用它构建什么！
 
-[Install the Raycast Extension here](https://www.raycast.com/any/anytype)
+[在此安装 Raycast 扩展](https://www.raycast.com/any/anytype)
 
 <figure><img src="../../.gitbook/assets/raycast_2x.png" alt=""><figcaption></figcaption></figure>
 
-### Privacy
+---
 
-Our API runs locally on your machine, works without internet connection and requires authentication for a client (eg. raycast extension) to retrieve & access data.
+### 隐私保护
 
-To accomplish this, Raycast initially pairs with the app through the 4 digit pop-up. This notifies you about giving the extension limited access to your account.
+我们的 API 在您的设备上本地运行，无需互联网连接，并且需要客户端（例如 Raycast 扩展）进行身份验证才能检索和访问数据。
 
-The API key is stored in encrypted local storage of the extension and will be used to fetch data from the app (to display spaces, objects etc.).
+为了实现这一点，Raycast 会通过一个 4 位数弹窗与应用程序配对。这会通知您扩展程序正在请求对您账户的有限访问权限。
 
-Therefore, no other applications than the authorized ones can access your data through the API.
+API 密钥存储在扩展程序的加密本地存储中，并用于从应用程序中获取数据（例如显示空间、对象等）。
+
+因此，只有经过授权的应用程序才能通过 API 访问您的数据，其他未经授权的应用程序无法访问。

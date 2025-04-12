@@ -1,31 +1,73 @@
-# Collaborate With Others
+---
+description: 如何与他人协作。
+---
 
-{% embed url="https://drive.google.com/file/d/1cuqFWZBJyfnTi57GQqU1dJQubfnp8WUW/view?usp=drive_link" %}
+# 协作空间
 
-In the Space Settings menu of each space you’ve created (excluding your Entry Space), you’ll now see the option to `Share Space` in your Space settings. By clicking here, you can generate an invite link for the Space, which can be sent to anyone.
+协作空间是一个与他人分享和协作的专用环境。
 
-<div>
+### 创建协作空间
 
-<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+要创建协作空间：
+1. 在侧边栏中点击 "+"
+2. 选择 "新建空间"
+3. 选择 "协作空间"
+4. 输入名称和描述
 
- 
+### 邀请成员
 
-<figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+邀请其他人加入你的空间：
+* 点击空间设置中的 "成员"
+* 点击 "邀请"
+* 输入成员的 Anytype ID 或邮箱
 
-</div>
+### 权限管理
 
-Once they click the link and request to join your Space, you’ll receive a notification prompting you to add this person as an Editor, Viewer, or to reject the request entirely. Editors have edit access to all objects within the Space, while Viewers have read-only access to all objects within the space.
+你可以为每个成员设置不同的权限级别：
+* 管理员 - 完全控制权限
+* 编辑者 - 可以编辑内容
+* 查看者 - 只能查看内容
 
-As a Space owner, it is possible to share up to three Spaces at this time. You can manage the roles of guests you have invited to your Space, or remove them altogether. Guests who have been removed from a space will receive a notification that they have been removed from the Space, and will see an option to export the contents of the Space.
+### 空间内容
 
-<div>
+协作空间可以包含：
+* 共享对象
+* 共享集合
+* 共享类型
+* 共享模板
 
-<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+### 实时协作
 
- 
+多个成员可以同时：
+* 编辑文档
+* 组织内容
+* 添加评论
+* 查看更改历史
 
-<figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+### 同步
 
-</div>
+所有更改都会自动同步到所有成员的设备上。同步功能：
+* 实时更新
+* 冲突解决
+* 离线编辑支持
 
-From today onward, we warmly welcome you to begin testing out shared spaces, starting with the small things: idea boards, shopping lists, projects, and wikis. If you need inspiration, you can always check the [Multiplayer Experiences](https://gallery.any.coop) newly added to the Experience Gallery (or [submit your own](../../use-cases/any-experience-gallery.md)!).
+{% hint style="info" %}
+协作空间中的所有内容都是端到端加密的，确保你的数据安全。
+{% endhint %}
+
+### 最佳实践
+
+**组织结构**
+* 使用清晰的命名约定
+* 创建共享模板
+* 设置明确的权限规则
+
+**协作工作流**
+* 使用评论进行讨论
+* 定期同步更新
+* 保持内容组织整洁
+
+**安全考虑**
+* 定期审查成员权限
+* 谨慎管理邀请链接
+* 备份重要数据

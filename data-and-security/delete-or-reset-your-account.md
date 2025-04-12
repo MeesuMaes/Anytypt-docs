@@ -1,19 +1,34 @@
-# Data Erasure
+# 数据擦除
 
-Since we don't have access to your Anytype data, and we have no way to connect your Anytype ID to your email address, there is no way for us to delete your data. This means that you can only delete it yourself, and through the app.
+由于我们无法访问您的 Anytype 数据，并且我们无法将您的 Anytype ID 与您的电子邮件地址关联，因此我们无法为您删除数据。这意味着您只能通过应用程序自行删除数据。
 
-### Delete or Reset Your Vault / Account
+---
 
-In the top menu, Click "Anytype", open Settings, Data management, and select **Delete vault.** This will delete your profile, and your Key:
+### 删除或重置您的存储库（Vault）/ 账户
+
+在顶部菜单中，点击“Anytype”，打开 **设置 > 数据管理**，然后选择 **删除存储库（Delete vault）**。这将删除您的个人资料和密钥（Key）：
 
 <figure><img src="../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
-If you would like to create a new vault instead, do the following:
+如果您希望创建一个新的存储库，请按照以下步骤操作：
 
-1. `Anytype > Settings > Vault > Data management > Delete vault`
-2. `Anytype > Settings > Vault > Log Out`
-3. Click: “_**Join**_” (instead of "Log in")
+1. `Anytype > 设置 > 存储库 > 数据管理 > 删除存储库`
+2. `Anytype > 设置 > 存储库 > 注销`
+3. 点击：“_**加入（Join）**_”（而不是“登录（Log in）”）
 
-### Other Data
+---
 
-For everything else (forum posts, support tickets, and email subscriptions), please contact us at [support@anytype.io](mailto:support@anytype.io), and we'll delete these for you.
+### 其他数据
+
+对于其他数据（如论坛帖子、支持工单和电子邮件订阅），请通过 [support@anytype.io](mailto:support@anytype.io) 联系我们，我们将为您删除这些内容。
+
+---
+
+### 注意事项
+
+- **不可逆操作**：删除存储库是一个不可逆的操作，所有数据将被永久清除，无法恢复。请确保在执行此操作之前备份重要数据。
+- **隐私保护**：由于 Anytype 的设计原则是用户完全掌控自己的数据，因此只有您能够删除自己的数据。
+- **账户重置**：如果您希望重新开始，可以选择删除存储库并创建一个新的存储库，这样可以确保您的旧数据不会保留。
+- **联系支持**：对于非应用程序内的数据（例如与支持团队的通信记录），请务必主动联系我们以请求删除。
+
+通过这些措施，您可以完全控制自己的数据并确保其被安全删除。

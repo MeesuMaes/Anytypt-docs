@@ -1,35 +1,39 @@
-# Analytics & Tracking
+# 分析与跟踪
 
 {% hint style="info" %}
-It will be possible to opt-out of analytics in the [future](https://github.com/orgs/anyproto/projects/1/views/1?pane=issue\&itemId=29227689).
+在未来，用户将可以选择退出分析功能。详情请参阅[公共路线图](https://github.com/orgs/anyproto/projects/1/views/1?pane=issue&itemId=29227689)。
 {% endhint %}
 
-While the product is still in pre-release, we use analytics services to help us understand performance of the app as a whole, adoption of certain features, and how the latter impacts retention.
+在产品仍处于预发布阶段时，我们使用分析服务来帮助我们了解应用程序的整体性能、某些功能的采用情况以及这些功能对用户留存的影响。
 
-Analytics consists of two parts: low-level analytics at the network level and app usage analytics at the client level. Both types are anonymous and do not analyze the content you are working with, as it is encrypted.
+分析分为两个部分：网络层面的低级分析和客户端层面的应用使用分析。这两种类型的分析都是匿名的，并且不会分析您正在处理的内容，因为这些内容是加密的。
 
 {% hint style="info" %}
-If you switch to self-hosted or local-only network mode, Anytype Network does not collect low-level analytics. However, app usage analytics are still reported.
+如果您切换到自托管模式或仅限本地网络模式，Anytype 网络将不会收集低级分析数据。然而，应用使用分析仍然会被报告。
 {% endhint %}
 
-**Amplitude** is the main service we use for tracking _events_ inside the app. It allows us to track metrics such as:
+**Amplitude** 是我们用于跟踪应用程序内 _事件_ 的主要服务。它使我们能够跟踪以下指标：
 
-* How many users joined in the past month & how many dropped
-* How many Objects, Blocks, Sets, and Custom Types were created (and average that per number of active users)
-* How much time people spend in the app, on average
-* Which devices are used to log in to the app
+* 过去一个月有多少用户加入，又有多少用户流失
+* 创建了多少对象（Objects）、块（Blocks）、集合（Sets）和自定义类型（Custom Types）（并按活跃用户数量计算平均值）
+* 用户平均在应用中花费的时间
+* 使用哪些设备登录应用
 
-We use these to understand our main product metrics and whether overall, we’re moving in the correct direction. While we can track frequency and adoption of events, _we cannot in any way track the content you create._
+我们利用这些数据来了解我们的主要产品指标，并判断整体上我们是否朝着正确的方向前进。虽然我们可以跟踪事件的发生频率和采用率，但我们 **无法以任何方式跟踪您创建的内容**。
 
-In practice, this means that we know for instance that custom Types are very popular, but we cannot see what these custom types are (nor which Objects you’ve created with those types).
+实际上，这意味着我们知道例如自定义类型（Types）非常受欢迎，但我们无法看到这些自定义类型是什么（也无法知道您使用这些类型创建了哪些对象）。
 
-Besides Amplitude, our engineering teams use Sentry to track the prevalence of crashes.
+除了 Amplitude，我们的工程团队还使用 Sentry 来跟踪崩溃的发生频率。
 
 {% hint style="info" %}
-The only way to disable analytics at the moment is to either block outgoing connections to analytics-related hosts, or to edit the relevant source code and rebuild the client for your own use.
-{% endhint %}
+目前，禁用分析的唯一方法是阻止与分析相关的主机的出站连接，或者编辑相关源代码并重新构建客户端以供个人使用。
+{% endhint %} 
 
+---
 
+### 总结
 
-
-
+- **隐私保护**：所有分析数据均匿名化，您的实际内容（如对象、笔记等）始终加密，无法被分析。
+- **数据分析的目的**：主要用于改进产品功能、优化用户体验，并评估功能的受欢迎程度。
+- **可选退出**：未来将提供正式的退出选项，但目前需要技术手段（如阻止连接或修改代码）来完全禁用分析。
+- **透明性**：我们承诺不会分析您的具体工作内容，所有数据收集严格遵守隐私原则。

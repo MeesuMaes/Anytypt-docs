@@ -1,30 +1,30 @@
-# Migration from the Legacy App
+# 从旧版应用（Legacy App）迁移
 
-**Migrate data from Alpha version (v 31.\* and older)**
+**从 Alpha 版本（v 31.* 及更早版本）迁移数据**
 
-If you’ve created content in the _Alpha (Legacy)_ version that you want to keep, you’ll need to migrate it.
+如果您在 _Alpha（旧版）_ 中创建了想要保留的内容，则需要将其迁移到新版本。
 
-The process is relatively straightforward:
+迁移过程相对简单，以下是具体步骤：
 
-1. Export from the Legacy app
-2. Install & open the Beta app
-3. Import to the Beta app
+1. 从旧版应用导出数据
+2. 安装并打开 Beta 版应用
+3. 将数据导入到 Beta 版应用
 
-Learn more by viewing [**A First Look At Our New Beta Software**](https://community.anytype.io/t/anytype-spring-town-hall-a-first-look-at-our-new-beta-software/8741)**.**
+了解更多内容，请查看 [**抢先体验我们的全新 Beta 软件**](https://community.anytype.io/t/anytype-spring-town-hall-a-first-look-at-our-new-beta-software/8741)。
 
+---
 
+**如何下载最新的 Alpha（旧版）应用**
 
-**Where to download the latest Alpha (Legacy) app**
+如果您在导出数据之前已经删除了 Alpha 应用，可能需要重新下载它以完成导出。您可以通过[以下链接](../)下载适用于 Mac、Windows 和 Linux 的 0.31.9 桌面版应用。
 
-If you have already deleted your Alpha app prior to exporting your data from it, you might want to download it again in order to complete the export. You can download the 0.31.9 desktop app for Mac, Windows, and Linux [via the following link](../).&#x20;
+---
 
+**替代方案**
 
+如果您不想迁移，可以选择以下替代方案：
 
-**Alternatives**&#x20;
+* 使用我们的 Beta 版应用重新开始
+* 从旧版中选择性地逐个导入对象 _(如果您的旧版账户变得杂乱无章，但您希望将一些项目转移到 Beta 版，可以选择此方法)_。
 
-Instead of migrating, you’ll have the following alternatives:
-
-* Start fresh with our Beta app
-* Selectively import your Objects one by one from Legacy to Beta _(You may want to do this if your Legacy account has become messy but you have a few projects you’d like to carry over to Beta)._
-
-For these options, you’ll need to create a new account, which will generate a new Recovery Phrase.
+对于这些选项，您需要创建一个新的账户，这将生成一个新的恢复短语（Recovery Phrase）。

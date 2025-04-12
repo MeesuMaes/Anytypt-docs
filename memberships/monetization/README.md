@@ -1,87 +1,113 @@
 ---
-description: All about memberships & pricing for the Anytype Network
+description: 关于 Anytype 网络的会员计划与定价的所有信息
 ---
 
-# Membership Plans
+# 会员计划
 
-Our memberships are designed to reflect the same core principles that have always guided Anytype’s development: unrestricted access to our software and an open ecosystem where contributions are fairly rewarded.
+我们的会员计划旨在反映始终指导 Anytype 开发的核心原则：对软件的无限制访问，以及一个公平奖励贡献的开放生态系统。
 
-&#x20;For more information about the philosophy behind our membership and its planned evolution, please visit this blog post: [Our Membership Philosophy](https://blog.anytype.io/our-memberships-philosophy/).
+如需了解更多关于会员计划背后的哲学及其未来发展的详细信息，请访问这篇博客文章：[我们的会员哲学](https://blog.anytype.io/our-memberships-philosophy/)。
 
-## Membership Model & Plans
+---
+
+## 会员模式与计划
 
 <figure><img src="../../.gitbook/assets/image (102) (1).png" alt=""><figcaption></figcaption></figure>
 
-All Members have unrestricted access to the following:
+所有会员均享有以下无限制访问权限：
 
-* On-device, local-only storage
-* P2P sync
-* Zero-knowledge encryption
+* 设备本地存储（仅限本地）
+* 点对点同步（P2P Sync）
+* 零知识加密
 
-**Explorer Membership:** Those who have not yet purchased one of our paid memberships. The Explorer membership includes:
+---
 
-* A local, non-unique name
-* 1GB of network backup & sync space
-* Up to 3 shared spaces
-* 3 Space Members per shared space (Owner + 2 invited Space Members per space)
+### **探索者会员（Explorer Membership）**
 
-_\*Beta testers - those who joined before the launch of multiplayer in April 2024 - will automatically receive an Explorer membership. Storage limits previously applied to your vault will not change._
+适用于尚未购买我们付费会员的用户。探索者会员包含以下内容：
 
-**Builder Membership:** Those who choose to purchase a one-year membership at a price of $99. The Builder membership includes:
+* 一个本地非唯一名称
+* 1GB 的网络备份与同步空间
+* 最多 3 个共享空间
+* 每个共享空间最多 3 名成员（所有者 + 2 名受邀成员）
 
-* A global, unique name (7+ characters)
-* 128 GB of network backup & sync space
-* Up to 3 Shared spaces
-* 10 Editors per shared space (Owner + 9 invited Editors per space)
-* Unlimited Viewers for shared spaces
-* Priority support
+_\*Beta 测试者（在 2024 年 4 月多人协作功能发布前加入的用户）将自动获得探索者会员资格。此前应用于您存储库的存储限制不会改变。_
 
-**Co-Creator Membership:** Those who choose to purchase a three-year subscription at a price of $299. The Co-Creator membership includes:
+---
 
-* A global, unique name (5+ characters)
-* 256 GB of network backup & sync space
-* Up to 3 Shared spaces
-* 10 Editors per shared space (Owner + 9 invited Editors per space)
-* Unlimited Viewers for Shared spaces
-* Priority support
+### **建设者会员（Builder Membership）**
 
-**Business Membership:** Those who need more Network space, Editors or Shared Spaces for a custom price. The Business membership includes:
+适用于选择以 99 美元价格购买一年会员的用户。建设者会员包含以下内容：
 
-* A unique name
-* Custom GB of network backup & sync space
-* Any number of Shared spaces
-* Any number of Editors per shared space
-* Unlimited Viewers for Shared spaces
-* Priority support
+* 一个全球唯一的名称（7 个字符或以上）
+* 128GB 的网络备份与同步空间
+* 最多 3 个共享空间
+* 每个共享空间最多 10 名编辑者（所有者 + 9 名受邀编辑者）
+* 无限数量的查看者
+* 优先支持
 
-## Exclusive Discounts for Beta Testers
+---
 
-For those who would like to purchase Builder or Co-Creator Plans, we will offer a limited number of discounted memberships on pre-order as follows:
+### **共创者会员（Co-Creator Membership）**
 
-* 250 one-year Builder memberships at $79
-  * Use discount code: `BetaBuilderPreOrder2024` at checkout
-* 250 three-year Co-Creator memberships at $239
-  * Use discount code: `BetaCoCreatorPreOrder2024` at checkout
+适用于选择以 299 美元价格购买三年订阅的用户。共创者会员包含以下内容：
 
-This offer is only available to beta users who joined our community prior to the launch of memberships. Additionally, these discount codes can only be used once, and the subscription will revert to the standard rate once it has been renewed.
+* 一个全球唯一的名称（5 个字符或以上）
+* 256GB 的网络备份与同步空间
+* 最多 3 个共享空间
+* 每个共享空间最多 10 名编辑者（所有者 + 9 名受邀编辑者）
+* 无限数量的查看者
+* 优先支持
 
-## Pricing for Contributors
+---
 
-Those who are active contributors to our codebase, gallery, tutorials, and community will have a one-year Builder membership subsidized. Active contributions are defined as 2+ contributions in the past year. You can check the status of your contributions [here](https://github.com/anyproto/contributors/blob/main/contributors.json).
+### **商业会员（Business Membership）**
 
-Other contributors, who have not met the threshold of 2 contributions per year, can purchase a one-year Builder Plan at 50% discount.
+适用于需要更多网络空间、编辑者或共享空间的用户，可根据需求定制价格。商业会员包含以下内容：
 
-To request your contributor's discount code, please email us at [association@anytype.io](mailto:association@anytype.io).&#x20;
+* 一个唯一名称
+* 自定义的网络备份与同步空间（GB 数量可选）
+* 任意数量的共享空间
+* 每个共享空间任意数量的编辑者
+* 无限数量的查看者
+* 优先支持
 
-If you believe that your contribution status is incorrect, please write us at [association@anytype.io](mailto:association@anytype.io).
+---
 
-## Pricing for Self-Hosters
+## Beta 测试者的专属折扣
 
-Self-hosters can manage the limits of Viewers/Editors they invite to their Spaces themselves. Those who would like to purchase a name in the Anytype naming system or access priority support, can purchase a membership at the same price as other beta testers.
+对于希望购买建设者或共创者会员的用户，我们将为预购提供有限数量的折扣会员，具体如下：
 
-In the future, we will introduce membership discounts for self-hosters. For those who would like to support the network in the meantime, we welcome your donation [here](https://stripe.pay.anytype.io/b/4gw0337MrdvbejK28f) (thank you!).
+* 250 份一年期建设者会员，售价 79 美元  
+  * 结账时使用折扣码：`BetaBuilderPreOrder2024`
+* 250 份三年期共创者会员，售价 239 美元  
+  * 结账时使用折扣码：`BetaCoCreatorPreOrder2024`
 
-### Want to dig deeper into Memberships? Check out the linked FAQs:
+此优惠仅适用于在会员计划推出之前加入社区的 Beta 用户。此外，这些折扣码只能使用一次，订阅到期后将恢复为标准价格。
+
+---
+
+## 贡献者的定价
+
+对我们代码库、画廊、教程和社区做出积极贡献的用户将获得一年的建设者会员补贴。活跃贡献的定义为过去一年中至少有 2 次贡献。您可以在此处查看您的贡献状态：[贡献者列表](https://github.com/anyproto/contributors/blob/main/contributors.json)。
+
+其他未达到每年 2 次贡献门槛的贡献者可以以 50% 的折扣购买一年期建设者会员。
+
+如需申请贡献者折扣码，请通过电子邮件联系我们：[association@anytype.io](mailto:association@anytype.io)。
+
+如果您认为您的贡献状态有误，请随时联系我们：[association@anytype.io](mailto:association@anytype.io)。
+
+---
+
+## 自托管用户的定价
+
+自托管用户可以自行管理他们邀请到空间中的查看者/编辑者的限制。如果自托管用户希望购买 Anytype 命名系统中的名称或获取优先支持，可以以与其他 Beta 测试者相同的价格购买会员。
+
+未来，我们将为自托管用户推出会员折扣。在此期间，如果您愿意支持网络，欢迎通过以下链接进行捐赠（感谢您的支持！）：[捐赠链接](https://stripe.pay.anytype.io/b/4gw0337MrdvbejK28f)。
+
+---
+
+### 想深入了解会员计划？请查看以下常见问题解答：
 
 {% content-ref url="multiplayer-and-membership-faqs.md" %}
 [multiplayer-and-membership-faqs.md](multiplayer-and-membership-faqs.md)

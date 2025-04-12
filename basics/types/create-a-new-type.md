@@ -1,16 +1,16 @@
 ---
-description: How to create new types from All Objects and your editor
+description: 如何从所有对象和编辑器中创建新类型。
 ---
 
-# Create a New Type
+# 创建新类型
 
-The [anytype-library](../anytype-library/ "mention") is the central place to manage, search for, and create new types.
+[anytype-library](../anytype-library/ "mention") 是管理、搜索和创建新类型的中心位置。
 
-### Creating Types from All Objects
+### 从所有对象中创建类型
 
-Open the [anytype-library](../anytype-library/ "mention") widget, and navigate to the Types tab. Afterwards, simply click on `New` button to create a new Type.
+打开 [anytype-library](../anytype-library/ "mention") 小部件，并导航到类型选项卡。然后，只需点击 `新建` 按钮即可创建新类型。
 
-From here, you can choose a name, and add templates and relations to the newly created Type.
+在这里，您可以选择一个名称，并为新创建的类型添加模板和关系。
 
 <div>
 
@@ -22,7 +22,7 @@ From here, you can choose a name, and add templates and relations to the newly c
 
 </div>
 
-If you've decided that this Type is no longer relevant, you can use the context menu (mouse right-click) to delete the Type from your space. Please proceed with caution; any objects of this type will show an alert if the Type has been removed from your library.
+如果您认为此类型不再相关，可以使用上下文菜单（鼠标右键）从您的空间中删除该类型。请谨慎操作；如果从库中移除了类型，任何此类型的对象都会显示警告。
 
 <div>
 
@@ -34,14 +34,14 @@ If you've decided that this Type is no longer relevant, you can use the context 
 
 </div>
 
-### Creating Types from the Object Editor
+### 从对象编辑器中创建类型
 
-In case you think of a new object type just as you're creating an object, you can create a new type on-the-fly. In this case, use the type selection menu in the same way as the search bar in the Types library. The type will be automatically added to your Types library, while you can proceed with editing the object of your new type.
+如果您在创建对象时突然想到一个新对象类型，可以即时创建新类型。在这种情况下，像在类型库的搜索栏中一样使用类型选择菜单。该类型将自动添加到您的类型库中，同时您可以继续编辑新类型的对象。
 
 <figure><img src="../../.gitbook/assets/Type Creation on-the-fly.png" alt=""><figcaption></figcaption></figure>
 
-If you decide later on that you want to convert your object to a new object type _after it's created_, again - you can do so by selecting the object type, choosing 'Change type', and entering the name of the type which you would like to create.
+如果您稍后决定要将对象转换为 _创建后_ 的新对象类型，同样可以通过选择对象类型，选择“更改类型”，并输入您想要创建的类型名称来实现。
 
 <figure><img src="../../.gitbook/assets/Type creation from change-type menu (1).png" alt=""><figcaption></figcaption></figure>
 
-Any type you create from the object editor will be available for editing in the types library using the steps above.
+您从对象编辑器创建的任何类型都可以通过上述步骤在类型库中进行编辑。

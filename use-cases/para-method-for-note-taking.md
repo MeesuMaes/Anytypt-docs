@@ -1,11 +1,10 @@
 ---
 description: >-
-  We tested Tiago Forte's popular method for note taking and building a second
-  brain.
+  我们测试了 Tiago Forte 的流行笔记方法，用于构建第二大脑。
 ---
 
-# 🧠 PARA Method for Note taking
+# 🧠 PARA 笔记方法
 
 {% embed url="https://www.youtube.com/watch?v=rgBS46Scw4Q" %}
 
-You can import this use case to your space using this [link](https://gallery.any.coop/?experience=para\_lite).
+您可以使用此[链接](https://gallery.any.coop/?experience=para\_lite)将此用例导入到您的空间中。

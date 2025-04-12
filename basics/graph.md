@@ -1,23 +1,38 @@
 ---
-description: Finally a dive into your graph of objects.
+描述: 最后深入了解您的对象图。
 ---
 
-# Graph
+# 图谱视图
 
-### From anywhere in the app, you'll see the graph icon at the top and next to your sidebar
+图谱视图可以让你以可视化的方式查看对象之间的连接。它以节点和连线的形式展示你的内容，让你更容易理解对象之间的关系。
 
-<figure><img src="../.gitbook/assets/image (105).png" alt="" width="375"><figcaption></figcaption></figure>
+你可以通过点击侧边栏中的图标或使用快捷键 CMD/CTRL + G 来访问图谱视图。
 
-### Open your Graph to see all of your objects and their relations
+### 节点和连线
 
-Here you can see which Objects are connected together, and the direction everything flows.
+节点代表你的对象，连线代表对象之间的关系。连线的粗细表示关系的强度 - 两个对象之间的链接越多，连线就越粗。
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-08-17 at 19.11.31.png" alt=""><figcaption></figcaption></figure>
 
-On the top right of the screen in your Graph, you can **search** and optimize some settings.&#x20;
+### 导航图谱
 
-Toggle appearances for title, arrows, and icons.&#x20;
+你可以通过以下方式在图谱中导航：
+* 点击并拖动以平移
+* 滚动鼠标滚轮以缩放
+* 点击节点以打开对象
+* 点击节点并按住以拖动
 
-Optimize viewing links, relations, and unlinked objects. **If you are missing some objects, check to show unlinked objects.**
+### 筛选视图
 
-<figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+使用右上角的筛选器来显示或隐藏特定类型的对象。这对于减少图谱中的视觉混乱非常有帮助。
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-08-17 at 19.12.53.png" alt=""><figcaption></figcaption></figure>
+
+### 上下文选项
+
+右键点击任何节点以查看更多选项：
+* 删除对象
+* 重命名对象
+* 打开对象
+* 将对象设为主页
+* 聚焦此对象（在图谱中居中显示）

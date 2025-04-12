@@ -1,46 +1,46 @@
 ---
-description: Understanding blocks, editing, and customizing to your preference.
+description: 了解块、编辑和自定义设置
 ---
 
-# Blocks & Editor
+# 块与编辑器
 
-Your object is made up of different types of blocks to organize your information, and the place where all of these Blocks live together is called the Canvas. Anytype's block-based editor works very similarly to that of blogging sites or website builders.
+你的对象由不同类型的块组成，用于组织信息，这些块所在的地方被称为画布。Anytype的基于块的编辑器的工作方式与博客网站或网站构建器非常相似。
 
-All block styles originate from the command menu, which you can access by either clicking on the orange `+` symbol on the left-hand side of your editor, or typing `/`.&#x20;
+所有块样式都源自命令菜单，你可以通过点击编辑器左侧的橙色`+`符号或输入`/`来访问它。
 
-From here, you'll see more than twenty different block-types you can add to your object.&#x20;
+在这里，你会看到超过二十种不同类型的块可以添加到你的对象中。
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-08-17 at 18.49.21.png" alt=""><figcaption></figcaption></figure>
 
-### Style your Blocks
+### 设置块样式
 
-You can select one block or several at once, and batch edit to create different headings and text styles such as checkboxes, bullets, or numbers.
+你可以选择一个或多个块，并进行批量编辑，创建不同的标题和文本样式，如复选框、项目符号或数字列表。
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-08-17 at 18.53.48.png" alt=""><figcaption></figcaption></figure>
 
-### Inline Styling &#x20;
+### 内联样式
 
-We also support styling individual characters / words inside text blocks.
+我们还支持在文本块内对单个字符/单词进行样式设置。
 
 <figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
-### Inline Latex
+### 内联LaTeX
 
-You can easily add mathematical notation right into your text by wrapping your formulas with `$` symbols, making it possible to include complex equations and formulas!
+你可以通过使用`$`符号包裹公式，轻松地在文本中添加数学符号，这使得包含复杂方程和公式成为可能！
 
 {% embed url="https://drive.google.com/file/d/1t90JdSI9V7lOLlInLxmAHRfeTHQYCveD/view?usp=drive_link" %}
 
-### Drag & Drop to Format
+### 拖放以格式化
 
-You can use the orange 'handle' to the left of each block to create parent/child blocks or new columns in your editor.
+你可以使用每个块左侧的橙色"手柄"来创建父/子块或在编辑器中创建新列。
 
 {% embed url="https://www.loom.com/share/00021ba3598447309722ec3a408d33ac?sid=eb244417-2273-4ab2-8da3-bd47e62e82cf" %}
 
-### Embed Blocks
+### 嵌入块
 
-Simply type /embed in the editor to pull up a menu of currently supported embeds.
+只需在编辑器中输入/embed即可调出当前支持的嵌入内容菜单。
 
-Some examples include: Mermaid diagrams, Youtube videos, Miro boards, Google Maps, and several more.
+支持的嵌入内容包括：Mermaid图表、YouTube视频、Miro白板、Google地图等等。
 
-Some file types can also be embedded: audio, video, image and pdf.
+某些文件类型也可以被嵌入：音频、视频、图片和PDF。
 

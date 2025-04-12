@@ -1,79 +1,131 @@
 ---
-description: A live search of all Objects which share a common Type or Relation
+description: 一个实时搜索所有共享共同类型或关系的对象的工具
 ---
 
-# Sets
+# 集合（Sets）
 
 {% content-ref url="../../use-cases/deep-dive-sets.md" %}
 [deep-dive-sets.md](../../use-cases/deep-dive-sets.md)
 {% endcontent-ref %}
 
-### Understanding Sets
+### 理解集合（Sets）
 
-Lots of people compare Sets with databases, but there's a key difference: Sets don't _store_ Objects like regular databases.
+许多人将集合（Sets）与数据库进行比较，但有一个关键区别：集合（Sets）不像常规数据库那样存储对象。
 
-Sets are a way to see a portion of your Graph, and Objects you've created, based on your filtered criteria, and several secondary filters which you can customize. You can think of them as a live filter or query for Objects which share certain criteria - specifically, a Type or a Relation.
+集合（Sets）是一种查看图谱的一部分以及您创建的对象的方式，基于您的筛选条件和几个可自定义的次级筛选器。您可以将它们视为共享某些条件（特别是类型或关系）的对象的实时筛选或查询。
 
-#### Sets serve two primary functions:
+#### 集合（Sets）有两个主要功能：
 
-1. **Organizing and Accessing Objects**\
+1. **组织和访问对象**\
    \
-   We often get requests along the lines of: _How do I find all of the Notes I've created?_\
+   我们经常收到类似这样的请求：_如何找到我创建的所有笔记？_\
    \
-   One easy way is to create a Set based on Type.\
-   For example; Note, which will display every Note you've created in Anytype.\
+   一个简单的方法是基于类型创建一个集合（Set）。\
+   例如：笔记，这将显示您在 Anytype 中创建的每个笔记。\
    \
-   If you have specific notes you'd like to frequently access, you can filter them based on Relations you've added to these notes.\
+   如果您有特定的笔记希望经常访问，可以根据您添加到这些笔记的关系进行筛选。\
    \
-   For instance: Creation Date, Tags, or Priority. (In this sense, Relations behave like attributes).\
+   例如：创建日期、标签或优先级。（在这个意义上，关系就像属性）。\
    \
-   You can then pin your Set to your Favorites menu, where it will sit on your Sidebar, acting like a folder for all Objects that meet certain criteria.
-2.  **Editing Objects**
+   然后，您可以将集合（Set）固定到收藏夹菜单中，它将位于侧边栏上，充当满足某些条件的所有对象的文件夹。
+2.  **编辑对象**
 
     <figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 
-    Sets also provide a way to quickly edit Objects in a list View.\
+    集合（Sets）还提供了一种快速编辑列表视图中的对象的方法。\
     \
-    You can use multi-select in Sets to delete multiple Objects at once, or to batch update Relations / the Object Type of Objects. Any Relations added to a Set in the Relation Menu (top right), will be adopted by all new Objects created with the "+ New Object" button.
+    您可以在集合（Sets）中使用多选来一次删除多个对象，或批量更新对象的关系/对象类型。任何在关系菜单（右上角）中添加到集合（Set）的关系，将被所有使用“+ 新对象”按钮创建的新对象采用。
 
 {% embed url="https://drive.google.com/file/d/1emIekdXcrI0DTve9BQfweqTnPxa_BfGt/view?usp=drive_link" %}
 
-### Creating Sets
+### 创建集合（Set）
 
-#### You can create a Set with the + in the bottom-left corner or using the / shortcut menu in the editor.
+#### 您可以通过左下角的 + 或使用编辑器中的 / 快捷菜单创建一个集合（Set）。
 
-You'll then need to choose if you want a Set by Type which lets you list all of your Objects of a certain Type, or a Set by Relation which will list all Objects that contain the Relation of your choosing.&#x20;
+然后，您需要选择是要按类型创建集合（Set），这允许您列出某种类型的所有对象，还是按关系创建集合（Set），这将列出包含您选择的关系的所有对象。&#x20;
 
-You can also create a Set by Type from the Object type toggle on a new document.
+您还可以通过新文档上的对象类型切换创建一个按类型的集合（Set）。
 
 <figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-#### Next, you need to decide on the purpose of your Set.&#x20;
+#### 接下来，您需要决定集合（Set）的用途。&#x20;
 
-For example, project management may require Type: Project, for reading list — Book. From the Library, choose an Object Type, click "Create," and choose "Create a set."
+例如，项目管理可能需要类型：项目，阅读清单——书籍。从库中选择一个对象类型，点击“创建”，然后选择“创建一个集合（Set）”。
 
-This will then create a set of all the Objects with the Type: Books.&#x20;
+这将创建一个包含类型：书籍的所有对象的集合（Set）。&#x20;
 
-Now you have an organized selection of all your book objects entered into Anytype.
+现在，您有一个组织好的选择，包含您输入到 Anytype 中的所有书籍对象。
 
 <figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
-### Customizing Your Set
+### 自定义您的集合（Set）
 
-#### Toggle & Add Relations to Objects via Sets
+#### 通过集合（Sets）切换和添加关系到对象
 
-Instead of adding Relations one-by-one to Objects, you can batch-add them to your Set by clicking the filters on the right side.
+与其逐个向对象添加关系，不如通过点击右侧的筛选器批量添加到您的集合（Set）。
 
-Here you can toggle on/off any Relations that you would like to see, add another Relation or new relation, and edit the View of the Set here.
+在这里，您可以打开/关闭您希望看到的任何关系，添加另一个关系或新关系，并在此处编辑集合（Set）的视图。
 
 ![](<../../.gitbook/assets/image (16).png>)
 
-You can add any Relations to be automatically added to your **Objects**, by adding them in the creation process of your **Type**.
+您可以通过在创建**类型**的过程中添加关系，将任何关系自动添加到您的**对象**中。
 
-See more about how to [create-a-new-type.md](../types/create-a-new-type.md "mention") here. Underneath the title & Template section of the new Type process you'll have the Relation options.
+查看更多关于如何[创建新类型](../types/create-a-new-type.md "mention")的信息。在新类型过程的标题和模板部分下，您将看到关系选项。
 
 ![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
-#### Sorts & Filters
+#### 排序和筛选
 
-You are also able to sort or filter your set by any relation that you've previously added to the Set.
+您还可以按您之前添加到集合（Set）的任何关系对其进行排序或筛选。
+
+# 集合（Sets）
+
+集合（Sets）是存储对象的灵活容器。与集合（Collections）不同，集合（Sets）可以包含任何类型的对象。
+
+### 创建集合（Set）
+
+要创建一个集合（Set）：
+1. 打开命令菜单（CMD/CTRL + K）
+2. 输入 "新建集合"
+3. 选择 "集合（Set）"
+
+### 添加对象
+
+有多种方式可以将对象添加到集合（Set）中：
+* 使用关系选择器
+* 拖放对象
+* 从其他集合中复制对象
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-17 at 19.05.37.png" alt=""><figcaption></figcaption></figure>
+
+### 管理集合（Sets）
+
+你可以：
+* 重新排序对象
+* 移除对象
+* 添加描述
+* 创建子集合
+
+### 与集合（Collections）的区别
+
+**集合（Sets）：**
+* 可以包含任何类型的对象
+* 手动管理成员
+* 更适合自由形式的组织
+
+**集合（Collections）：**
+* 仅包含同一类型的对象
+* 自动管理成员（基于筛选器）
+* 提供更多视图选项
+
+### 用例示例
+
+集合（Sets）适用于：
+* 项目相关文件
+* 参考资料收集
+* 阅读清单
+* 收藏夹
+
+{% hint style="info" %}
+集合（Sets）是组织不同类型对象的理想选择，例如将笔记、任务和文件组合在一起。
+{% endhint %}

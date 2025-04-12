@@ -1,75 +1,75 @@
 ---
-description: How do we customize and edit?
+description: 如何自定义和编辑？
 ---
 
-# Sidebar & Widgets
+# 侧边栏和小部件
 
-Your sidebar is comprised of customizable widgets which allow you to preview and navigate your Objects.
+您的侧边栏由可自定义的小部件组成，允许您预览和导航您的对象。
 
-By default, your sidebar only includes the [anytype-library](../anytype-library/ "mention") widget. If your space is a shared one, you will also find the Members widget above it.
+默认情况下，您的侧边栏仅包括 [anytype-library](../anytype-library/ "mention") 小部件。如果您的空间是共享的，您还会在其上方找到成员小部件。
 
-In general, _any_ object you've created using Anytype's editor can be used as a widget and formatted using link or tree view. Sets and Collections - Objects in and of themselves - can be used as widgets with a list of objects contained therein.
+通常，您使用 Anytype 的编辑器创建的 _任何_ 对象都可以用作小部件，并使用链接或树视图进行格式化。集合和集 - 本身就是对象 - 可以用作小部件，其中包含的对象列表。
 
-Additionally, Anytype provides several options for _non-object_ widgets which you can add or remove from your sidebar, including:
+此外，Anytype 提供了几种选项，用于添加或从侧边栏中删除 _非对象_ 小部件，包括：
 
-* Favorites: All objects which you've starred as a favorite, regardless of object type
-* Sets: All Set-type objects
-* Collections: All Collection-type objects
-* Recently edited: Your recently edited objects (globally synced across devices)
-* Recently opened: Your recently opened objects (device-specific)
+* 收藏夹：所有您标记为收藏的对象，无论对象类型如何
+* 集：所有集类型对象
+* 集合：所有集合类型对象
+* 最近编辑：您最近编辑的对象（在设备之间全局同步）
+* 最近打开：您最近打开的对象（特定于设备）
 
 {% content-ref url="../../use-cases/simple-dashboard.md" %}
 [simple-dashboard.md](../../use-cases/simple-dashboard.md)
 {% endcontent-ref %}
 
-### Space Sidebar
+### 空间侧边栏
 
-We've also recently added a new sidebar that allows you to quickly access any of your spaces.
+我们最近还添加了一个新的侧边栏，允许您快速访问您的任何空间。
 
 <figure><img src="../../.gitbook/assets/6b445a809efbd412d62e452d483491e11811bf1a.jpeg" alt=""><figcaption></figcaption></figure>
 
-### Customize your Sidebar Widgets
+### 自定义您的侧边栏小部件
 
-At the bottom of your sidebar you'll find an "Edit widgets" button, which upon clicking will reveal options to add or remove widgets from your sidebar.
+在侧边栏底部，您会找到一个“编辑小部件”按钮，点击后将显示选项以添加或删除侧边栏中的小部件。
 
-Clicking "Add" will give you the choice to choose your widget source. Again, a widget source can be any object you've previously created or the list of widget options above.
+点击“添加”将允许您选择小部件来源。同样，小部件来源可以是您之前创建的任何对象或上述小部件选项列表。
 
-On desktop, you can also drag & drop objects directly into the sidebar.
+在桌面上，您还可以直接将对象拖放到侧边栏中。
 
-### Adjust your Widget Appearance
+### 调整您的小部件外观
 
-Depending on the widget source, you can choose from a variety of layouts.
+根据小部件来源，您可以选择多种布局。
 
-It is possible to view widgets sourced from a single Object created in the editor (Pages, Notes, etc.) as a 'link' or a 'tree'. A link widget displays only the object name, whereas a tree widget displays all of objects connected to the source object by first and second-degree connections.
+可以将从编辑器中创建的单个对象（页面、笔记等）作为小部件源，以“链接”或“树”形式查看。链接小部件仅显示对象名称，而树小部件显示与源对象通过第一和第二度连接连接的所有对象。
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-18 at 09.01.31.png" alt=""><figcaption><p>Above, 'the 'Self' widget is displayed using tree view whereas the 'Home' widget is displayed using link view.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-18 at 09.01.31.png" alt=""><figcaption><p>上图中，“自我”小部件以树视图显示，而“主页”小部件以链接视图显示。</p></figcaption></figure>
 
-When creating widgets from sets and collections on the other hands, you'll see the view options of 'List' or 'Compact list'. Both render a preview of objects contained within the given set/collection, with differences in line spacing and description previews.
+当从集合和集创建小部件时，您会看到“列表”或“紧凑列表”的视图选项。两者都呈现给定集合/集内包含的对象的预览，行间距和描述预览有所不同。
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-18 at 09.08.53 (1).png" alt=""><figcaption><p>Above, the 'Disco Room' widget displayed as a compact list (top) and list (bottom).</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-18 at 09.08.53 (1).png" alt=""><figcaption><p>上图中，“迪斯科房间”小部件以紧凑列表（顶部）和列表（底部）显示。</p></figcaption></figure>
 
-You can now also simply choose View in the widget view settings for your widget to follow the Set view layout. Currently supported layouts are: Calendar, Kanban, and Gallery (Graph is coming soon!). &#x20;
+您现在还可以简单地选择小部件视图设置中的视图，以使您的小部件遵循集视图布局。目前支持的布局包括：日历、看板和画廊（图表即将推出！）。
 
 <figure><img src="../../.gitbook/assets/e470b74a31cba9b89fb8f3f4adeadb22149b3a92.jpeg" alt=""><figcaption></figcaption></figure>
 
-### Mobile Widgets
+### 移动端小部件
 
-#### Organizing your widgets
+#### 组织您的小部件
 
-When you open up Anytype on your mobile device you will see your current **Widgets** along with 3 navigation options at the bottom.
+当您在移动设备上打开 Anytype 时，您会看到当前的 **小部件** 以及底部的 3 个导航选项。
 
-Your **widgets** are customizable in the same way they are in the sidebar of your desktop application.
+您的 **小部件** 可以像桌面应用程序的侧边栏一样进行自定义。
 
-To edit and move your widgets around: scroll to the bottom of the list, where you'll find "Edit Widgets".
+要编辑和移动您的小部件：滚动到列表底部，您会找到“编辑小部件”。
 
-When you click the button, you'll see a small grey minus sign on the corner of each block. Now you can delete, add, or rearrange your widgets.
+点击按钮后，您会看到每个块角落的小灰色减号。现在您可以删除、添加或重新排列您的小部件。
 
-#### Using Widgets
+#### 使用小部件
 
-The best way to customize and optimize your mobile usage of Anytype, widgets are your best friend.
+自定义和优化您在移动端使用 Anytype 的最佳方式，小部件是您的好帮手。
 
-Setting up your widgets for mobile allows you to create quick access and manage your preferred objects to visit.
+设置您的移动端小部件，允许您快速访问和管理您希望访问的首选对象。
 
-Add specific Objects to the top for quick access.
+将特定对象添加到顶部以便快速访问。
 
-Add Sets to your widgets, like task managers for a quick view of what's next to do.
+将集添加到您的小部件中，例如任务管理器，以快速查看接下来要做的事情。

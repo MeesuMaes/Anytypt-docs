@@ -1,66 +1,79 @@
 ---
-description: There are no passwords in Anytype - only your key
+description: Anytype 中没有密码，只有您的密钥
 ---
 
-# Key
+# 密钥（Key）
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-08-17 at 18.31.38.png" alt=""><figcaption><p>You can access your key at any time by navigating to Profile > Settings > Key</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-08-17 at 18.31.38.png" alt=""><figcaption><p>您可以通过导航到个人资料 > 设置 > 密钥随时访问您的密钥</p></figcaption></figure>
 
-When you create your vault, you will receive your very own 12 word mnemonic phrase. This phrase is generated on-device and is the only way to access your vault and decrypt your data.
+当您创建存储库（vault）时，您将获得一个专属的 12 词助记词（mnemonic phrase）。该短语是在设备上生成的，是访问存储库和解密数据的唯一方式。
 
-Your Key functions as your login and passphrase at the same time. This mnemonic represents your master key generated upon signup, similar to a Bitcoin wallet.
+您的 **密钥（Key）** 同时充当登录凭证和密码。这一助记词代表了您在注册时生成的主密钥，类似于比特币钱包的机制。
 
-Changing it is impossible, and it's extremely important you keep it safe. You can access it at any time by navigating to Profile > Settings > Key.
+**无法更改密钥**，因此务必妥善保管。您可以通过导航到 **个人资料 > 设置 > 密钥** 随时访问它。
 
-### Don't forget to save it!
+---
 
-We do not save a copy of your key, which means that if it's lost, we are not able to assist with recovering your vault. For this reason, we recommend making a digital backup or writing it down and keeping it somewhere safe.
+### 别忘了保存！
 
-You will need this key each time you login on a new device.
+我们不会保存您的密钥副本，这意味着如果丢失密钥，我们将无法帮助您恢复存储库。因此，我们建议制作数字备份或将助记词写下来并存放在安全的地方。
 
-### What is a Key?
+每次在新设备上登录时，您都需要使用此密钥。
 
-Your key, also known as a seed phrase, is a **unique combination of words** that serves as a cryptographic key. A typical Key consists of 12, 18, or 24 words selected from a predefined list of words.
+---
 
-Your key is used to derive your account's [**private key**](https://en.wikipedia.org/wiki/Public-key\_cryptography) using the [**BIP39 Algorithm**](https://medium.com/coinmonks/mnemonic-generation-bip39-simply-explained-e9ac18db9477).
+### 什么是密钥？
 
-### Why do we use a seed phrase as a Key?
+您的密钥（也称为种子短语，Seed Phrase）是一种 **独特的单词组合**，用作加密密钥。典型的密钥由 12、18 或 24 个单词组成，这些单词从预定义的单词列表中选取。
 
-The primary purpose of a seed phrase is to provide a secure and convenient method for backing up and restoring encrypted information. By utilizing a seed phrase, we can recover our private keys and access our data even if our devices are lost, stolen, or damaged. It acts as a master key that unlocks the gateway to our data, making it an indispensable tool for long-term data preservation and security.
+您的密钥通过 [**BIP39 算法**](https://medium.com/coinmonks/mnemonic-generation-bip39-simply-explained-e9ac18db9477) 用于派生账户的 [**私钥**](https://en.wikipedia.org/wiki/Public-key_cryptography)。
 
-Seed phrases follow a standardized protocol called BIP-39 (Bitcoin Improvement Proposal 39), which ensures compatibility across different wallets and applications. The BIP-39 protocol also introduces a checksum to detect transcription errors, minimizing the risk of loss due to human error.
+---
 
-### Can Anyone Obtain My Key?
+### 为什么使用种子短语作为密钥？
 
-The strength of your key lies in its ability to safeguard your digital assets. When properly generated, managed, and stored, it is nearly impossible for anyone to obtain your key without your consent or knowledge. Keys are generated using complex mathematical algorithms, and the sheer number of possible combinations makes it extremely challenging for an attacker to guess or brute-force their way to your key.
+种子短语的主要目的是提供一种安全且便捷的方法来备份和恢复加密信息。通过种子短语，即使设备丢失、被盗或损坏，我们也可以恢复私钥并访问数据。它充当了通往数据的主密钥，是长期数据保存和安全不可或缺的工具。
+
+种子短语遵循标准化协议 BIP-39（Bitcoin Improvement Proposal 39），确保在不同钱包和应用程序之间的兼容性。BIP-39 协议还引入了校验和以检测转录错误，从而最大限度地减少因人为错误导致的数据丢失风险。
+
+---
+
+### 是否有人能获取我的密钥？
+
+密钥的安全性在于其保护数字资产的能力。当密钥被正确生成、管理和存储时，几乎不可能在未经您同意或知情的情况下被他人获取。密钥通过复杂的数学算法生成，可能的组合数量庞大，使得攻击者极难猜测或暴力破解您的密钥。
 
 {% hint style="info" %}
-**Combinations:** 5,444,517,870,735,015,415,413,993,718,908,291,383,296
-
-**Cost To Crack:** $38,029,518,006,846,883,000,000,000 USD
+**组合数：** 5,444,517,870,735,015,415,413,993,718,908,291,383,296  
+**破解成本：** $38,029,518,006,846,883,000,000,000 USD
 {% endhint %}
 
-However, it's crucial to understand that the responsibility of protecting your key ultimately lies with you. While it may be tempting to store it digitally for convenience, these methods can introduce vulnerabilities. Instead, it is recommended to write down your key on a physical medium, and store it securely in a location known only to you. Avoid storing your Key on devices connected to the internet or in cloud storage, as they can be compromised by hackers or unauthorized access.
+然而，必须明白保护密钥的责任最终在于您自己。尽管出于方便可能会考虑将其数字化存储，但这种方法可能引入漏洞。建议将密钥写在物理介质上，并存放在只有您知道的安全位置。避免将密钥存储在连接互联网的设备或云存储中，因为它们可能被黑客或未经授权的访问所破坏。
 
-### Key storage
+---
 
-If you’re using a Mac, Anytype’s default setting is to store your key in the native Keychain Access app. It doesn’t get stored anywhere else. Whether your passwords are backed up to iCloud depends if you have that option enabled in your settings. You can check [Apple’s support page](https://support.apple.com/en-us/HT204085) for more information on iCloud password backups.
+### 密钥存储
 
-We’ve set up this system as a safety net for users who might otherwise lose their Key. We’re pursuing different options for the future, but for the time being, this is how it works.
+如果您使用的是 Mac，Anytype 的默认设置是将密钥存储在原生的 **Keychain Access（钥匙串访问）** 应用中。它不会存储在其他任何地方。您的密码是否备份到 iCloud 取决于您是否在设置中启用了该选项。您可以查看 [Apple 支持页面](https://support.apple.com/en-us/HT204085) 获取有关 iCloud 密码备份的更多信息。
 
-If you logged in with your key on your mac, then you can find it here:
+我们设置了这一系统作为用户可能丢失密钥时的安全网。我们正在探索未来的其他选择，但目前就是这样运作的。
 
-1. Click and open Finder from the dock.
-2. Click on Applications & open Utilities.
-3. Open the Keychain Access app.
-4. On the sidebar: select Default Keychains: login
-5. Find & open your Anytype instance in the list
-6. Check the “Show password” box to reveal your key
+如果您在 Mac 上使用密钥登录，可以在这里找到它：
+
+1. 点击并打开 Dock 中的 Finder。
+2. 点击“应用程序”并打开“实用工具”。
+3. 打开“钥匙串访问”应用。
+4. 在侧边栏中选择“默认钥匙串：登录”。
+5. 在列表中找到并打开您的 Anytype 实例。
+6. 勾选“显示密码”框以显示您的密钥。
+
+---
 
 #### Windows
 
-Your key is stored in the [Credentials Manager](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0). If you are unable to read a password via the Credential Manager (Show button is missing), you can use [this PowerShell script](https://gist.github.com/requilence/de8da32adc44d4786559789debb3bf88). Save it to your computer, right-click in the File Explorer and press "Run with PowerShell".
+您的密钥存储在 [凭据管理器](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0) 中。如果您无法通过凭据管理器读取密码（缺少“显示”按钮），可以使用 [此 PowerShell 脚本](https://gist.github.com/requilence/de8da32adc44d4786559789debb3bf88)。将其保存到您的计算机，右键单击文件资源管理器并按“使用 PowerShell 运行”。
+
+---
 
 #### Linux
 
-You can use [seahorse](https://wiki.gnome.org/Apps/Seahorse/) to find your key if you are using [GNOME Keyring](https://wiki.gnome.org/action/show/Projects/GnomeKeyring?action=show\&redirect=GnomeKeyring).
+如果您使用 [GNOME Keyring](https://wiki.gnome.org/action/show/Projects/GnomeKeyring?action=show&redirect=GnomeKeyring)，可以使用 [Seahorse](https://wiki.gnome.org/Apps/Seahorse/) 查找您的密钥。

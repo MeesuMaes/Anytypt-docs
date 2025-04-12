@@ -1,24 +1,24 @@
-# Any Timeline
+# 任何时间线
 
 <img src="../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
 
-### Pre-Alpha
+### 预Alpha阶段
 
-* These were the early days of Anytype during which the team was looking for potential investors after they've developed the initial vision for the app.
-* This phase started sometime in 2019, and by 2020 the plans for the app were already public.
+* 这是Anytype的早期阶段，团队在开发出应用程序的初始愿景后，正在寻找潜在投资者。
+* 这一阶段始于2019年左右，并在2020年时，该应用的计划已经公开。
 
-### Alpha
+### Alpha阶段
 
-* The alpha phase started around June 2020 when the first users started testing the app.
-* Users who signed up during this stage and helped us test and improve the app, get 10GB of storage for free and the alpha flair on the community forum.
-* The app used during this time is now referred to as the legacy app.
+* Alpha阶段大约从2020年6月开始，第一批用户开始测试该应用。
+* 在这一阶段注册并帮助我们测试和改进应用的用户，可获得10GB的免费存储空间以及社区论坛上的Alpha标志。
+* 此期间使用的应用现在被称为旧版应用。
 
-### Beta (current)
+### Beta阶段（当前）
 
-* The first beta release was 0.32.0 and it was released on 15 June 2023. Alpha users who wanted to keep their data needed to migrate to the new app.
-* The official open beta launch was on 19 July 2023.
+* 第一个Beta版本为0.32.0，于2023年6月15日发布。希望保留数据的Alpha用户需要迁移到新应用。
+* 官方开放Beta版本于2023年7月19日启动。
 
-### Public Release
+### 公开发布
 
-* There is currently no ETA for the public release.
-* You can check our progress towards it through our [public roadmap](https://github.com/orgs/anyproto/projects/1/views/1).
+* 目前尚未公布公开发布的预计时间。
+* 您可以通过我们的[公共路线图](https://github.com/orgs/anyproto/projects/1/views/1)查看我们在此方面的进展。

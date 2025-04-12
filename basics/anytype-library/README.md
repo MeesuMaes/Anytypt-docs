@@ -1,35 +1,35 @@
 ---
-Description: Here you'll find both pre-built & system Types to help you get started!
+Description: 在这里，您会找到预构建和系统类型，帮助您快速入门！
 ---
 
-# All Objects
+# 所有对象
 
 {% embed url="https://drive.google.com/file/d/1CZczNAFxQyDDEIYpNkS10xD408IaJ-VW/view?usp=drive_link" %}
 
-To see all of the objects you've created in your space, you can use the [.](./ "mention") widget that can be found at the top of your sidebar (just below your space name).
+要查看您在空间中创建的所有对象，您可以使用位于侧边栏顶部（就在空间名称下方）的[小部件](./ "mention")。
 
 <figure><img src="../../.gitbook/assets/image (88).png" alt="" width="320"><figcaption></figcaption></figure>
 
-To customize your All Objects widget, click on the three dots button in the top right corner.
+要自定义您的所有对象小部件，请点击右上角的三点按钮。
 
 <figure><img src="../../.gitbook/assets/image (97).png" alt="" width="315"><figcaption></figcaption></figure>
 
-## Managing your Objects
+## 管理您的对象
 
-There are currently seven tabs in the All Objects widget:
+目前，“所有对象”小部件中有七个标签：
 
-1. Pages - All other Objects that can not be found in any of the other tabs
-2. Lists - [sets.md](../sets-and-collections/sets.md "mention") and [collections.md](../sets-and-collections/collections.md "mention")
-3. Media - Images and Videos
-4. Bookmarks
-5. Files - All other Files&#x20;
-6. [types](../types/ "mention")
-7. [relations](../relations/ "mention")
+1. 页面 - 所有无法在其他标签中找到的对象
+2. 列表 - [集合](../sets-and-collections/sets.md "mention")和[集合](../sets-and-collections/collections.md "mention")
+3. 媒体 - 图片和视频
+4. 书签
+5. 文件 - 所有其他文件
+6. [类型](../types/ "mention")
+7. [关系](../relations/ "mention")
 
 {% hint style="info" %}
-System Types and Relations can not be removed.
+系统类型和关系无法被移除。
 {% endhint %}
 
-To create new Objects, simply click on the New button.
+要创建新对象，只需点击“新建”按钮。
 
 <figure><img src="../../.gitbook/assets/image (98).png" alt="" width="315"><figcaption></figcaption></figure>

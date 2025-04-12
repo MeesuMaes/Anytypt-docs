@@ -1,32 +1,46 @@
-# Self-hosted
+# 自托管模式（Self-hosted）
 
-To back up your spaces and data to a self-hosted network, you need to have a network configuration. If you don’t run your own network yet, see this [how-to guide](https://tech.anytype.io/how-to/self-hosting). There's also a [docker image](https://github.com/anyproto/any-sync-dockercompose) that's maintained by the team. One of our developers also created this video guide for anyone who want's to set up their own self-hosted network:
+要将您的空间和数据备份到自托管网络，您需要有一个网络配置。如果您尚未运行自己的网络，请参阅此 [操作指南](https://tech.anytype.io/how-to/self-hosting)。我们团队还维护了一个 [Docker 镜像](https://github.com/anyproto/any-sync-dockercompose)。此外，我们的开发人员制作了以下视频指南，帮助您设置自己的自托管网络：
 
 {% embed url="https://drive.google.com/file/d/1PI28cosN4ad-bdgRxM2gDJRiAYw_9mW4/view?usp=drive_link" %}
 
-### How to switch to a self-hosted network
+---
 
-We strongly recommend using dedicated identities for each network. If you already have an identity in Anytype Network and want to switch to a self-hosted network, export all your spaces, and import them into a new identity after switching the network mode.
+### 如何切换到自托管网络
 
-Please note that all your devices should be manually switched to the same self-hosted network.
+我们强烈建议为每个网络使用专用的身份（identity）。如果您已经在 Anytype 网络中拥有身份，并希望切换到自托管网络，请先导出所有空间，并在网络模式切换后将它们导入到新的身份中。
 
-#### Desktop
+请注意，您的所有设备都需要手动切换到相同的自托管网络。
 
-1. Log out from your current identity.
-2. On the onboarding screen, click a gear icon in the top right corner.
-3. In the “Network” field choose the “Self-hosted” option.
-4. Upload your self-hosted network configuration (\*.yml file) to the corresponding field.
-5. Click the “Save” button.
-6. Create a new identity or log in with an existing one.
+#### 桌面端
+
+1. 从当前身份注销。
+2. 在初始设置屏幕上，点击右上角的齿轮图标。
+3. 在“网络”字段中选择“自托管（Self-hosted）”选项。
+4. 将您的自托管网络配置文件（\*.yml 文件）上传到相应的字段。
+5. 点击“保存”按钮。
+6. 创建一个新身份或使用现有身份登录。
 
 <figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
-#### Mobile
+#### 移动端
 
-1. Log out from your current identity.
-2. On the onboarding screen, click a gear icon in the top right corner.
-3. Click on “Self-hosted” in the “Networks” sub-menu.&#x20;
-4. Click on “Tap to provide your network configuration” to upload your self-hosted network configuration (\*.yml file).
-5. Create a new identity or log in an existing one.
+1. 从当前身份注销。
+2. 在初始设置屏幕上，点击右上角的齿轮图标。
+3. 在“网络”子菜单中点击“自托管（Self-hosted）”选项。
+4. 点击“点击以提供您的网络配置”以上传您的自托管网络配置文件（\*.yml 文件）。
+5. 创建一个新身份或使用现有身份登录。
 
 <figure><img src="../../.gitbook/assets/Screenshot_20240411-104804_Anytype3.png" alt="" width="375"><figcaption></figcaption></figure>
+
+---
+
+### 注意事项
+
+- **网络配置文件：** 自托管模式需要一个有效的 \*.yml 配置文件。确保您的配置文件格式正确，并且网络服务已正确部署。
+- **数据迁移：** 如果您从其他网络（如 Anytype 网络或仅限本地模式）切换，请务必导出所有空间，并在新身份中重新导入，以避免数据丢失。
+- **设备同步：** 所有设备必须切换到相同的自托管网络才能实现同步。请确保每台设备都完成切换。
+- **隐私与安全：** 自托管模式完全由您掌控数据存储和备份，适合对数据隐私和安全性有更高要求的用户。但请确保您的服务器具有足够的安全性和稳定性。
+- **技术支持：** 自托管模式的技术支持主要依赖社区和文档。如果您遇到问题，可以参考官方文档或向社区寻求帮助。
+
+通过自托管模式，您可以完全控制您的数据存储和备份流程，同时享受更高的隐私保护和灵活性。
